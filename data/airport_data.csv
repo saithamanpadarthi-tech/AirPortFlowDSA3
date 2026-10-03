@@ -1,0 +1,21 @@
+FlightID,FlightNumber,Origin,Destination,Status,Gate,Runway,DepartureTime,ArrivalTime,Airline,PassengerCount,BaggageCode,AlertMessage,OperationalNote
+1,AI101,Delhi,Mumbai,ON-TIME,A1,R1,06:00,08:30,Air India,180,BAG-AI101-001,Flight AI101 is on schedule,Regular morning flight connecting Delhi and Mumbai
+2,6E202,Hyderabad,Bangalore,DELAYED,B2,R2,07:15,08:45,IndiGo,160,BAG-6E202-002,Flight 6E202 delayed due to technical issue,Technical inspection required before departure from Hyderabad
+3,SG303,Chennai,Kolkata,ON-TIME,C3,R3,08:30,11:00,SpiceJet,145,BAG-SG303-003,Flight SG303 departing on time,Monsoon weather advisory for Kolkata arrival
+4,UK404,Mumbai,Delhi,CANCELLED,D4,R1,09:45,12:00,Vistara,200,BAG-UK404-004,Flight UK404 cancelled due to crew unavailability,Passengers redirected to next available flight
+5,AI505,Bangalore,Hyderabad,ON-TIME,A5,R2,10:00,11:15,Air India,120,BAG-AI505-005,Flight AI505 boarding in progress,Short hop connecting Bangalore and Hyderabad
+6,6E606,Delhi,Chennai,DELAYED,B6,R3,11:30,14:00,IndiGo,175,BAG-6E606-006,Flight 6E606 delayed due to air traffic congestion,ATC holding pattern in effect for Delhi departures
+7,SG707,Kolkata,Mumbai,ON-TIME,C7,R1,12:00,14:30,SpiceJet,155,BAG-SG707-007,Flight SG707 on time final boarding,Seat upgrade offers available for frequent flyers
+8,UK808,Hyderabad,Delhi,BOARDING,D8,R2,13:15,15:45,Vistara,190,BAG-UK808-008,Flight UK808 now boarding at Gate D8,Priority boarding for business class passengers
+9,AI909,Chennai,Mumbai,ON-TIME,A9,R3,14:30,17:00,Air India,165,BAG-AI909-009,Flight AI909 operating normally,In-flight meal service upgraded for this sector
+10,6E010,Mumbai,Bangalore,DELAYED,B10,R1,15:45,17:15,IndiGo,140,BAG-6E010-010,Flight 6E010 delayed awaiting inbound aircraft,Passengers advised to remain in boarding area
+11,SG111,Delhi,Hyderabad,ON-TIME,C11,R2,16:00,18:00,SpiceJet,135,BAG-SG111-011,Flight SG111 scheduled on time,Complimentary beverages on this flight
+12,UK212,Bangalore,Chennai,CANCELLED,D12,R3,17:30,18:45,Vistara,110,BAG-UK212-012,Flight UK212 cancelled weather conditions,Full refund initiated for all passengers
+13,AI313,Mumbai,Kolkata,ON-TIME,A13,R1,18:00,20:30,Air India,180,BAG-AI313-013,Flight AI313 on schedule evening departure,Business lounge open for premium passengers
+14,6E414,Delhi,Mumbai,BOARDING,B14,R2,19:15,21:30,IndiGo,195,BAG-6E414-014,Flight 6E414 boarding commenced,Carry-on baggage check in progress
+15,SG515,Hyderabad,Kolkata,ON-TIME,C15,R3,20:00,22:30,SpiceJet,125,BAG-SG515-015,Flight SG515 ready for departure,Night flight safety briefing mandatory
+16,UK616,Chennai,Delhi,DELAYED,D16,R1,21:30,00:30,Vistara,150,BAG-UK616-016,Flight UK616 delayed due to late crew arrival,Hotel accommodation arranged for transit passengers
+17,AI717,Kolkata,Bangalore,ON-TIME,A17,R2,22:00,01:00,Air India,140,BAG-AI717-017,Flight AI717 final call for boarding,Baggage reclaim carousel 3 at Bangalore
+18,6E818,Mumbai,Hyderabad,ON-TIME,B18,R3,22:45,00:15,IndiGo,160,BAG-6E818-018,Flight 6E818 departing shortly,Night operations noise protocol in effect
+19,SG919,Bangalore,Delhi,DELAYED,C19,R1,23:15,02:00,SpiceJet,170,BAG-SG919-019,Flight SG919 delayed due to runway maintenance,Runway R1 maintenance window 23:00 to 01:00
+20,UK020,Delhi,Bangalore,ON-TIME,D20,R2,00:30,03:30,Vistara,145,BAG-UK020-020,Flight UK020 overnight flight on schedule,Red-eye flight complimentary eye masks provided
