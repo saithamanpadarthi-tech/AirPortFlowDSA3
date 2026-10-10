@@ -64,12 +64,17 @@ public class AirportDataset {
                 "ID", "Flight", "Origin", "Dest", "Status", "Gate", "RWY",
                 "Dep", "Arr", "Airline", "Pax", "BaggageCode");
         System.out.println("  " + sep);
-        for (Flight f : flights) {
+        int limit = Math.min(25, flights.size());
+        for (int i = 0; i < limit; i++) {
+            Flight f = flights.get(i);
             System.out.printf("  %-4d %-8s %-12s %-12s %-10s %-5s %-4s %-6s %-6s %-12s %-5d %-18s%n",
                     f.getFlightId(), f.getFlightNumber(), f.getOrigin(), f.getDestination(),
                     f.getStatus(), f.getGate(), f.getRunway(),
                     f.getDepartureTime(), f.getArrivalTime(),
                     f.getAirline(), f.getPassengerCount(), f.getBaggageCode());
+        }
+        if (flights.size() > limit) {
+            System.out.println("  ... (" + (flights.size() - limit) + " more records loaded in database. Showing first " + limit + " of " + flights.size() + ")");
         }
         System.out.println("  " + sep);
         System.out.println("  Total flights loaded: " + flights.size());

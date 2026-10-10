@@ -19,3 +19,483 @@ FlightID,FlightNumber,Origin,Destination,Status,Gate,Runway,DepartureTime,Arriva
 18,6E818,Mumbai,Hyderabad,ON-TIME,B18,R3,22:45,00:15,IndiGo,160,BAG-6E818-018,Flight 6E818 departing shortly,Night operations noise protocol in effect
 19,SG919,Bangalore,Delhi,DELAYED,C19,R1,23:15,02:00,SpiceJet,170,BAG-SG919-019,Flight SG919 delayed due to runway maintenance,Runway R1 maintenance window 23:00 to 01:00
 20,UK020,Delhi,Bangalore,ON-TIME,D20,R2,00:30,03:30,Vistara,145,BAG-UK020-020,Flight UK020 overnight flight on schedule,Red-eye flight complimentary eye masks provided
+21,9I214,Delhi,Kochi,ON-TIME,B5,R1,22:10,01:40,Alliance Air,83,BAG-9I214-021,Flight 9I214 is on schedule departing to Kochi,Baggage transfer operational on carousel 4 at destination
+22,6E617,Patna,Delhi,DELAYED,B23,R4,12:45,16:15,IndiGo,76,BAG-6E617-022,Flight 6E617 delayed due to technical inspection,Monsoon weather advisory monitored by central flight dispatch team
+23,SG384,Chennai,Pune,CANCELLED,C4,R1,17:10,19:40,SpiceJet,229,BAG-SG384-023,Flight SG384 cancelled technical maintenance required,Secondary runway backup assigned for optimal flow management
+24,9I570,Bhubaneswar,Hyderabad,ON-TIME,A18,R3,16:20,19:35,Alliance Air,86,BAG-9I570-024,Flight 9I570 scheduled on time with full passenger load,In-flight catering services loaded for morning departure sector
+25,AI975,Pune,Hyderabad,ON-TIME,C15,R3,10:30,12:45,Air India,143,BAG-AI975-025,Flight AI975 scheduled on time with full passenger load,Medical kit and emergency equipment certified by safety inspector
+26,QP750,Kolkata,Indore,CANCELLED,B6,R4,17:25,21:10,Akasa Air,217,BAG-QP750-026,Flight QP750 cancelled due to operational constraints,Fast track boarding operational for frequent flyer club members
+27,AI334,Mumbai,Lucknow,ON-TIME,C3,R2,23:30,01:15,Air India,202,BAG-AI334-027,Flight AI334 priority departure clearance granted,Medical kit and emergency equipment certified by safety inspector
+28,6E371,Chennai,Goa,CANCELLED,C24,R4,23:40,01:55,IndiGo,110,BAG-6E371-028,Flight 6E371 cancelled passenger refunds initiated,Special baggage handling protocol applied for fragile cargo
+29,AI981,Hyderabad,Kolkata,BOARDING,B22,R4,07:40,10:25,Air India,194,BAG-AI981-029,Flight AI981 gate closing soon at Gate B22,Runway clearance issued by regional air traffic control tower
+30,9I838,Hyderabad,Indore,CANCELLED,C25,R3,08:25,10:40,Alliance Air,191,BAG-9I838-030,Flight 9I838 cancelled due to adverse weather alert,Monsoon weather advisory monitored by central flight dispatch team
+31,QP880,Kolkata,Bhubaneswar,ON-TIME,C21,R2,09:30,11:15,Akasa Air,210,BAG-QP880-031,Flight QP880 is on schedule departing to Bhubaneswar,Night operations quiet flight departure protocol activated
+32,UK119,Hyderabad,Guwahati,ON-TIME,B2,R2,23:10,00:55,Vistara,199,BAG-UK119-032,Flight UK119 is on schedule departing to Guwahati,Secondary runway backup assigned for optimal flow management
+33,6E775,Amritsar,Indore,ON-TIME,C17,R4,11:50,15:35,IndiGo,126,BAG-6E775-033,Flight 6E775 scheduled on time with full passenger load,Runway clearance issued by regional air traffic control tower
+34,9I765,Lucknow,Amritsar,DELAYED,D4,R2,12:10,14:25,Alliance Air,225,BAG-9I765-034,Flight 9I765 delayed due to runway maintenance window,In-flight catering services loaded for morning departure sector
+35,AI172,Mumbai,Goa,ON-TIME,A11,R1,21:20,00:05,Air India,199,BAG-AI172-035,Flight AI172 on time final boarding at Gate A11,Refueling protocol and ramp safety clearance completed at Gate A11
+36,9I684,Indore,Amritsar,ON-TIME,D14,R2,08:10,11:40,Alliance Air,165,BAG-9I684-036,Flight 9I684 priority departure clearance granted,Aircraft turnaround routine servicing completed on schedule
+37,9I155,Hyderabad,Mumbai,ON-TIME,C4,R2,11:20,14:50,Alliance Air,110,BAG-9I155-037,Flight 9I155 priority departure clearance granted,Pre-flight safety inspection completed successfully by ground crew
+38,UK355,Bangalore,Amritsar,DELAYED,A2,R1,07:20,08:50,Vistara,199,BAG-UK355-038,Flight UK355 delayed awaiting inbound connecting aircraft,In-flight catering services loaded for morning departure sector
+39,AI268,Guwahati,Delhi,ON-TIME,C15,R3,18:50,22:35,Air India,199,BAG-AI268-039,Flight AI268 on time final boarding at Gate C15,In-flight catering services loaded for morning departure sector
+40,6E159,Indore,Bhubaneswar,ON-TIME,C2,R1,23:45,03:30,IndiGo,115,BAG-6E159-040,Flight 6E159 is on schedule departing to Bhubaneswar,Refueling protocol and ramp safety clearance completed at Gate C2
+41,6E170,Patna,Bangalore,BOARDING,B13,R1,23:20,03:05,IndiGo,85,BAG-6E170-041,Flight 6E170 gate closing soon at Gate B13,Baggage transfer operational on carousel 7 at destination
+42,9I697,Indore,Srinagar,ON-TIME,C7,R3,12:25,14:40,Alliance Air,151,BAG-9I697-042,Flight 9I697 priority departure clearance granted,Transit passenger assistance coordinated at international transfer desk
+43,AI569,Patna,Indore,ON-TIME,A18,R2,21:25,22:55,Air India,92,BAG-AI569-043,Flight AI569 on time final boarding at Gate A18,Transit passenger assistance coordinated at international transfer desk
+44,6E548,Bhubaneswar,Kochi,DELAYED,A22,R3,08:15,10:30,IndiGo,102,BAG-6E548-044,Flight 6E548 delayed due to late crew arrival,Refueling protocol and ramp safety clearance completed at Gate A22
+45,SG388,Patna,Ahmedabad,BOARDING,C7,R3,21:45,00:00,SpiceJet,98,BAG-SG388-045,Flight SG388 boarding in progress for flight to Ahmedabad,Express gate clearance initiated for short turnaround connection
+46,AI103,Jaipur,Chennai,BOARDING,C6,R4,22:40,01:55,Air India,103,BAG-AI103-046,Flight AI103 now boarding at Gate C6,Medical kit and emergency equipment certified by safety inspector
+47,QP136,Lucknow,Patna,DELAYED,B14,R2,06:25,08:40,Akasa Air,166,BAG-QP136-047,Flight QP136 delayed due to technical inspection,Fast track boarding operational for frequent flyer club members
+48,9I205,Lucknow,Indore,ON-TIME,B8,R2,10:40,11:55,Alliance Air,160,BAG-9I205-048,Flight 9I205 priority departure clearance granted,Secondary runway backup assigned for optimal flow management
+49,SG263,Hyderabad,Chandigarh,ON-TIME,D8,R2,19:30,21:45,SpiceJet,132,BAG-SG263-049,Flight SG263 is on schedule departing to Chandigarh,Fast track boarding operational for frequent flyer club members
+50,UK436,Goa,Bangalore,CANCELLED,C12,R4,22:30,23:45,Vistara,141,BAG-UK436-050,Flight UK436 cancelled due to operational constraints,Night operations quiet flight departure protocol activated
+51,AI211,Patna,Chandigarh,ON-TIME,C14,R1,17:20,19:35,Air India,186,BAG-AI211-051,Flight AI211 is on schedule departing to Chandigarh,Refueling protocol and ramp safety clearance completed at Gate C14
+52,SG541,Bangalore,Lucknow,DELAYED,C22,R1,14:50,17:35,SpiceJet,179,BAG-SG541-052,Flight SG541 delayed due to inclement weather conditions,Aircraft turnaround routine servicing completed on schedule
+53,QP230,Ahmedabad,Varanasi,BOARDING,D22,R2,23:25,02:10,Akasa Air,75,BAG-QP230-053,Flight QP230 priority boarding commenced at Gate D22,Runway clearance issued by regional air traffic control tower
+54,UK904,Indore,Jaipur,DELAYED,D15,R2,21:45,01:00,Vistara,96,BAG-UK904-054,Flight UK904 delayed due to inclement weather conditions,Refueling protocol and ramp safety clearance completed at Gate D15
+55,AI938,Pune,Jaipur,ON-TIME,B5,R1,06:20,09:05,Air India,93,BAG-AI938-055,Flight AI938 priority departure clearance granted,Aircraft turnaround routine servicing completed on schedule
+56,9I813,Guwahati,Srinagar,ON-TIME,B5,R1,08:40,09:55,Alliance Air,207,BAG-9I813-056,Flight 9I813 priority departure clearance granted,Regular scheduled domestic flight connecting Guwahati and Srinagar
+57,AI567,Chennai,Amritsar,BOARDING,C25,R4,21:40,01:10,Air India,115,BAG-AI567-057,Flight AI567 boarding in progress for flight to Amritsar,Special baggage handling protocol applied for fragile cargo
+58,6E960,Goa,Bhubaneswar,DELAYED,B9,R4,07:25,08:55,IndiGo,160,BAG-6E960-058,Flight 6E960 delayed due to inclement weather conditions,Medical kit and emergency equipment certified by safety inspector
+59,6E254,Pune,Chandigarh,BOARDING,B23,R2,07:40,10:10,IndiGo,213,BAG-6E254-059,Flight 6E254 boarding in progress for flight to Chandigarh,Aircraft turnaround routine servicing completed on schedule
+60,6E952,Chandigarh,Guwahati,CANCELLED,A25,R4,20:00,22:30,IndiGo,174,BAG-6E952-060,Flight 6E952 cancelled due to airspace flow restrictions,Refueling protocol and ramp safety clearance completed at Gate A25
+61,UK324,Goa,Varanasi,DELAYED,A13,R3,17:15,19:30,Vistara,211,BAG-UK324-061,Flight UK324 delayed due to air traffic congestion,Medical kit and emergency equipment certified by safety inspector
+62,QP677,Delhi,Hyderabad,BOARDING,D5,R4,10:00,12:30,Akasa Air,158,BAG-QP677-062,Flight QP677 final call for all passengers to board,Special baggage handling protocol applied for fragile cargo
+63,SG879,Guwahati,Goa,CANCELLED,D9,R1,20:00,23:45,SpiceJet,88,BAG-SG879-063,Flight SG879 cancelled technical maintenance required,In-flight catering services loaded for morning departure sector
+64,9I141,Delhi,Goa,ON-TIME,A20,R2,12:15,15:00,Alliance Air,104,BAG-9I141-064,Flight 9I141 on time departure scheduled from Delhi,In-flight catering services loaded for morning departure sector
+65,9I362,Lucknow,Kolkata,DELAYED,A25,R2,14:10,17:25,Alliance Air,154,BAG-9I362-065,Flight 9I362 delayed due to runway maintenance window,Fast track boarding operational for frequent flyer club members
+66,UK832,Ahmedabad,Bangalore,DELAYED,B4,R3,08:00,10:45,Vistara,184,BAG-UK832-066,Flight UK832 delayed due to late crew arrival,Transit passenger assistance coordinated at international transfer desk
+67,QP763,Jaipur,Delhi,ON-TIME,D4,R4,16:45,20:00,Akasa Air,186,BAG-QP763-067,Flight QP763 on time final boarding at Gate D4,Monsoon weather advisory monitored by central flight dispatch team
+68,QP927,Bhubaneswar,Amritsar,DELAYED,D24,R3,15:20,16:50,Akasa Air,190,BAG-QP927-068,Flight QP927 delayed due to technical inspection,Secondary runway backup assigned for optimal flow management
+69,QP724,Guwahati,Jaipur,ON-TIME,D11,R2,20:20,22:50,Akasa Air,162,BAG-QP724-069,Flight QP724 operating normally on Runway R2,Medical kit and emergency equipment certified by safety inspector
+70,QP110,Srinagar,Ahmedabad,ON-TIME,B24,R4,20:50,22:35,Akasa Air,196,BAG-QP110-070,Flight QP110 scheduled on time with full passenger load,Monsoon weather advisory monitored by central flight dispatch team
+71,UK911,Delhi,Hyderabad,ON-TIME,B13,R2,14:30,17:15,Vistara,210,BAG-UK911-071,Flight UK911 operating normally on Runway R2,Aircraft turnaround routine servicing completed on schedule
+72,SG819,Varanasi,Goa,ON-TIME,C8,R1,11:30,13:15,SpiceJet,212,BAG-SG819-072,Flight SG819 scheduled on time with full passenger load,Pre-flight safety inspection completed successfully by ground crew
+73,6E856,Amritsar,Goa,CANCELLED,C4,R2,14:20,16:35,IndiGo,152,BAG-6E856-073,Flight 6E856 cancelled due to adverse weather alert,Monsoon weather advisory monitored by central flight dispatch team
+74,SG146,Mumbai,Indore,ON-TIME,B21,R4,08:00,11:30,SpiceJet,195,BAG-SG146-074,Flight SG146 priority departure clearance granted,Special baggage handling protocol applied for fragile cargo
+75,6E152,Goa,Srinagar,ON-TIME,A13,R4,07:00,08:15,IndiGo,219,BAG-6E152-075,Flight 6E152 operating normally on Runway R4,Baggage transfer operational on carousel 4 at destination
+76,AI671,Chandigarh,Pune,CANCELLED,D15,R4,14:40,17:25,Air India,90,BAG-AI671-076,Flight AI671 cancelled passenger refunds initiated,Monsoon weather advisory monitored by central flight dispatch team
+77,6E740,Ahmedabad,Kochi,BOARDING,A6,R2,10:50,12:05,IndiGo,75,BAG-6E740-077,Flight 6E740 boarding in progress for flight to Kochi,Special baggage handling protocol applied for fragile cargo
+78,SG133,Pune,Jaipur,BOARDING,C23,R4,07:20,10:05,SpiceJet,225,BAG-SG133-078,Flight SG133 final call for all passengers to board,Aircraft turnaround routine servicing completed on schedule
+79,QP330,Chennai,Kochi,ON-TIME,A2,R2,14:25,16:40,Akasa Air,194,BAG-QP330-079,Flight QP330 scheduled on time with full passenger load,Runway clearance issued by regional air traffic control tower
+80,SG612,Bhubaneswar,Amritsar,DELAYED,A20,R1,18:30,22:00,SpiceJet,81,BAG-SG612-080,Flight SG612 delayed due to air traffic congestion,In-flight catering services loaded for morning departure sector
+81,9I941,Goa,Patna,ON-TIME,B16,R4,13:15,16:45,Alliance Air,200,BAG-9I941-081,Flight 9I941 is on schedule departing to Patna,Special baggage handling protocol applied for fragile cargo
+82,UK441,Jaipur,Hyderabad,ON-TIME,C14,R4,14:40,17:55,Vistara,191,BAG-UK441-082,Flight UK441 is on schedule departing to Hyderabad,Transit passenger assistance coordinated at international transfer desk
+83,SG218,Guwahati,Bhubaneswar,ON-TIME,D14,R1,11:50,14:35,SpiceJet,202,BAG-SG218-083,Flight SG218 scheduled on time with full passenger load,Special baggage handling protocol applied for fragile cargo
+84,6E373,Bhubaneswar,Chennai,ON-TIME,D23,R4,08:00,11:45,IndiGo,136,BAG-6E373-084,Flight 6E373 scheduled on time with full passenger load,Pre-flight safety inspection completed successfully by ground crew
+85,QP114,Bhubaneswar,Chandigarh,ON-TIME,B4,R4,08:15,11:00,Akasa Air,149,BAG-QP114-085,Flight QP114 on time departure scheduled from Bhubaneswar,Monsoon weather advisory monitored by central flight dispatch team
+86,UK954,Amritsar,Srinagar,ON-TIME,D18,R2,17:20,21:05,Vistara,109,BAG-UK954-086,Flight UK954 is on schedule departing to Srinagar,Runway clearance issued by regional air traffic control tower
+87,SG906,Srinagar,Goa,ON-TIME,C24,R3,23:45,01:15,SpiceJet,212,BAG-SG906-087,Flight SG906 priority departure clearance granted,Transit passenger assistance coordinated at international transfer desk
+88,QP881,Bhubaneswar,Guwahati,DELAYED,C7,R2,23:40,01:10,Akasa Air,86,BAG-QP881-088,Flight QP881 delayed due to inclement weather conditions,Monsoon weather advisory monitored by central flight dispatch team
+89,9I930,Guwahati,Chandigarh,BOARDING,B16,R1,09:50,13:20,Alliance Air,100,BAG-9I930-089,Flight 9I930 boarding in progress for flight to Chandigarh,Baggage transfer operational on carousel 8 at destination
+90,AI839,Chennai,Varanasi,BOARDING,B3,R4,13:30,17:15,Air India,176,BAG-AI839-090,Flight AI839 now boarding at Gate B3,Express gate clearance initiated for short turnaround connection
+91,9I979,Bhubaneswar,Guwahati,ON-TIME,D18,R1,07:20,11:05,Alliance Air,148,BAG-9I979-091,Flight 9I979 on time final boarding at Gate D18,Monsoon weather advisory monitored by central flight dispatch team
+92,UK200,Hyderabad,Amritsar,ON-TIME,C1,R1,15:00,17:30,Vistara,170,BAG-UK200-092,Flight UK200 priority departure clearance granted,Pre-flight safety inspection completed successfully by ground crew
+93,QP521,Indore,Kolkata,ON-TIME,B3,R4,12:45,16:00,Akasa Air,134,BAG-QP521-093,Flight QP521 priority departure clearance granted,Fast track boarding operational for frequent flyer club members
+94,UK361,Delhi,Amritsar,ON-TIME,B3,R4,16:25,19:55,Vistara,139,BAG-UK361-094,Flight UK361 priority departure clearance granted,Express gate clearance initiated for short turnaround connection
+95,6E493,Amritsar,Hyderabad,ON-TIME,D19,R3,23:25,02:55,IndiGo,80,BAG-6E493-095,Flight 6E493 scheduled on time with full passenger load,Aircraft turnaround routine servicing completed on schedule
+96,AI679,Mumbai,Srinagar,ON-TIME,B20,R3,12:20,15:50,Air India,110,BAG-AI679-096,Flight AI679 scheduled on time with full passenger load,Baggage transfer operational on carousel 1 at destination
+97,SG907,Varanasi,Mumbai,DELAYED,C24,R2,07:25,10:10,SpiceJet,181,BAG-SG907-097,Flight SG907 delayed due to technical inspection,In-flight catering services loaded for morning departure sector
+98,QP997,Lucknow,Bhubaneswar,DELAYED,C6,R3,20:25,23:55,Akasa Air,104,BAG-QP997-098,Flight QP997 delayed awaiting inbound connecting aircraft,Baggage transfer operational on carousel 3 at destination
+99,6E980,Guwahati,Indore,ON-TIME,A13,R1,13:50,15:20,IndiGo,169,BAG-6E980-099,Flight 6E980 scheduled on time with full passenger load,Monsoon weather advisory monitored by central flight dispatch team
+100,QP490,Lucknow,Hyderabad,BOARDING,B16,R1,22:30,01:45,Akasa Air,91,BAG-QP490-100,Flight QP490 boarding in progress for flight to Hyderabad,Medical kit and emergency equipment certified by safety inspector
+101,9I518,Hyderabad,Kolkata,ON-TIME,A10,R4,08:10,09:55,Alliance Air,109,BAG-9I518-101,Flight 9I518 priority departure clearance granted,Special baggage handling protocol applied for fragile cargo
+102,9I860,Bhubaneswar,Chandigarh,DELAYED,B14,R1,20:40,22:55,Alliance Air,169,BAG-9I860-102,Flight 9I860 delayed due to technical inspection,Special baggage handling protocol applied for fragile cargo
+103,6E975,Lucknow,Hyderabad,BOARDING,C18,R3,06:40,08:55,IndiGo,106,BAG-6E975-103,Flight 6E975 boarding in progress for flight to Hyderabad,Baggage transfer operational on carousel 4 at destination
+104,9I754,Patna,Delhi,ON-TIME,C8,R2,23:20,01:05,Alliance Air,128,BAG-9I754-104,Flight 9I754 on time departure scheduled from Patna,In-flight catering services loaded for morning departure sector
+105,SG892,Chennai,Delhi,ON-TIME,B5,R3,10:10,13:25,SpiceJet,108,BAG-SG892-105,Flight SG892 is on schedule departing to Delhi,Transit passenger assistance coordinated at international transfer desk
+106,QP431,Delhi,Ahmedabad,ON-TIME,A5,R4,21:10,00:25,Akasa Air,196,BAG-QP431-106,Flight QP431 priority departure clearance granted,Secondary runway backup assigned for optimal flow management
+107,QP707,Hyderabad,Amritsar,DELAYED,B20,R1,21:25,00:10,Akasa Air,82,BAG-QP707-107,Flight QP707 delayed due to air traffic congestion,Special baggage handling protocol applied for fragile cargo
+108,UK802,Hyderabad,Srinagar,BOARDING,D3,R1,15:15,16:30,Vistara,145,BAG-UK802-108,Flight UK802 gate closing soon at Gate D3,Fast track boarding operational for frequent flyer club members
+109,UK711,Srinagar,Kochi,DELAYED,D4,R1,22:20,00:50,Vistara,133,BAG-UK711-109,Flight UK711 delayed awaiting inbound connecting aircraft,Transit passenger assistance coordinated at international transfer desk
+110,UK525,Hyderabad,Lucknow,ON-TIME,C22,R3,16:15,19:45,Vistara,92,BAG-UK525-110,Flight UK525 is on schedule departing to Lucknow,Express gate clearance initiated for short turnaround connection
+111,AI542,Hyderabad,Guwahati,ON-TIME,A19,R3,08:40,11:25,Air India,183,BAG-AI542-111,Flight AI542 scheduled on time with full passenger load,Regular scheduled domestic flight connecting Hyderabad and Guwahati
+112,QP419,Lucknow,Hyderabad,DELAYED,B5,R4,12:10,14:55,Akasa Air,169,BAG-QP419-112,Flight QP419 delayed due to air traffic congestion,Secondary runway backup assigned for optimal flow management
+113,QP331,Chandigarh,Indore,CANCELLED,A20,R3,05:15,08:00,Akasa Air,154,BAG-QP331-113,Flight QP331 cancelled technical maintenance required,Transit passenger assistance coordinated at international transfer desk
+114,6E990,Chennai,Patna,BOARDING,D3,R2,05:10,08:55,IndiGo,130,BAG-6E990-114,Flight 6E990 boarding in progress for flight to Patna,Aircraft turnaround routine servicing completed on schedule
+115,SG261,Lucknow,Kochi,CANCELLED,C25,R1,06:15,08:00,SpiceJet,87,BAG-SG261-115,Flight SG261 cancelled due to adverse weather alert,Runway clearance issued by regional air traffic control tower
+116,9I534,Amritsar,Varanasi,ON-TIME,C7,R1,16:40,18:10,Alliance Air,226,BAG-9I534-116,Flight 9I534 priority departure clearance granted,Refueling protocol and ramp safety clearance completed at Gate C7
+117,AI325,Guwahati,Mumbai,ON-TIME,B10,R2,09:25,11:55,Air India,105,BAG-AI325-117,Flight AI325 is on schedule departing to Mumbai,Special baggage handling protocol applied for fragile cargo
+118,6E232,Guwahati,Indore,BOARDING,B17,R3,07:40,10:55,IndiGo,186,BAG-6E232-118,Flight 6E232 now boarding at Gate B17,Special baggage handling protocol applied for fragile cargo
+119,SG689,Chandigarh,Patna,ON-TIME,D10,R1,17:00,19:15,SpiceJet,192,BAG-SG689-119,Flight SG689 scheduled on time with full passenger load,Medical kit and emergency equipment certified by safety inspector
+120,AI547,Hyderabad,Goa,DELAYED,D17,R1,17:25,20:55,Air India,131,BAG-AI547-120,Flight AI547 delayed due to inclement weather conditions,Secondary runway backup assigned for optimal flow management
+121,AI622,Hyderabad,Bhubaneswar,DELAYED,B25,R3,16:15,17:30,Air India,112,BAG-AI622-121,Flight AI622 delayed due to inclement weather conditions,In-flight catering services loaded for morning departure sector
+122,QP256,Bangalore,Ahmedabad,CANCELLED,D15,R4,23:30,03:00,Akasa Air,113,BAG-QP256-122,Flight QP256 cancelled due to airspace flow restrictions,Baggage transfer operational on carousel 8 at destination
+123,UK746,Kochi,Goa,DELAYED,A12,R1,14:45,17:00,Vistara,89,BAG-UK746-123,Flight UK746 delayed due to inclement weather conditions,Express gate clearance initiated for short turnaround connection
+124,AI760,Bangalore,Bhubaneswar,ON-TIME,D19,R1,19:20,22:05,Air India,196,BAG-AI760-124,Flight AI760 on time departure scheduled from Bangalore,Pre-flight safety inspection completed successfully by ground crew
+125,UK205,Jaipur,Bangalore,DELAYED,B2,R2,19:45,23:30,Vistara,115,BAG-UK205-125,Flight UK205 delayed due to inclement weather conditions,Transit passenger assistance coordinated at international transfer desk
+126,UK518,Jaipur,Mumbai,BOARDING,C3,R3,08:50,12:20,Vistara,147,BAG-UK518-126,Flight UK518 priority boarding commenced at Gate C3,Monsoon weather advisory monitored by central flight dispatch team
+127,SG183,Indore,Chennai,ON-TIME,C21,R4,09:10,11:55,SpiceJet,171,BAG-SG183-127,Flight SG183 scheduled on time with full passenger load,Secondary runway backup assigned for optimal flow management
+128,6E786,Srinagar,Bangalore,BOARDING,D17,R3,05:30,07:45,IndiGo,129,BAG-6E786-128,Flight 6E786 priority boarding commenced at Gate D17,Secondary runway backup assigned for optimal flow management
+129,6E331,Chennai,Kolkata,ON-TIME,C4,R1,15:15,18:45,IndiGo,114,BAG-6E331-129,Flight 6E331 on time final boarding at Gate C4,Pre-flight safety inspection completed successfully by ground crew
+130,9I548,Mumbai,Varanasi,ON-TIME,B15,R3,19:20,22:35,Alliance Air,154,BAG-9I548-130,Flight 9I548 priority departure clearance granted,Medical kit and emergency equipment certified by safety inspector
+131,SG794,Indore,Varanasi,DELAYED,C25,R4,21:50,00:05,SpiceJet,126,BAG-SG794-131,Flight SG794 delayed due to runway maintenance window,Pre-flight safety inspection completed successfully by ground crew
+132,AI756,Amritsar,Lucknow,DELAYED,A23,R1,14:10,15:40,Air India,190,BAG-AI756-132,Flight AI756 delayed due to runway maintenance window,Pre-flight safety inspection completed successfully by ground crew
+133,AI327,Varanasi,Lucknow,ON-TIME,D2,R4,21:30,23:00,Air India,95,BAG-AI327-133,Flight AI327 operating normally on Runway R4,In-flight catering services loaded for morning departure sector
+134,SG201,Jaipur,Chennai,ON-TIME,A10,R4,09:45,12:30,SpiceJet,76,BAG-SG201-134,Flight SG201 is on schedule departing to Chennai,Regular scheduled domestic flight connecting Jaipur and Chennai
+135,6E955,Chennai,Indore,CANCELLED,D4,R3,12:25,13:40,IndiGo,136,BAG-6E955-135,Flight 6E955 cancelled due to airspace flow restrictions,Fast track boarding operational for frequent flyer club members
+136,AI213,Amritsar,Indore,ON-TIME,B23,R2,14:40,16:25,Air India,165,BAG-AI213-136,Flight AI213 on time final boarding at Gate B23,Night operations quiet flight departure protocol activated
+137,6E780,Bangalore,Bhubaneswar,ON-TIME,A17,R1,17:45,19:30,IndiGo,174,BAG-6E780-137,Flight 6E780 operating normally on Runway R1,Runway clearance issued by regional air traffic control tower
+138,SG907,Bangalore,Guwahati,ON-TIME,A25,R3,09:00,11:45,SpiceJet,161,BAG-SG907-138,Flight SG907 scheduled on time with full passenger load,Pre-flight safety inspection completed successfully by ground crew
+139,9I590,Kolkata,Chennai,ON-TIME,D2,R3,11:00,12:15,Alliance Air,155,BAG-9I590-139,Flight 9I590 operating normally on Runway R3,Refueling protocol and ramp safety clearance completed at Gate D2
+140,QP584,Goa,Mumbai,CANCELLED,B10,R3,06:30,08:45,Akasa Air,169,BAG-QP584-140,Flight QP584 cancelled due to airspace flow restrictions,Medical kit and emergency equipment certified by safety inspector
+141,9I550,Guwahati,Jaipur,ON-TIME,D23,R4,16:50,19:05,Alliance Air,183,BAG-9I550-141,Flight 9I550 is on schedule departing to Jaipur,Aircraft turnaround routine servicing completed on schedule
+142,QP400,Jaipur,Hyderabad,ON-TIME,C22,R3,14:45,18:30,Akasa Air,184,BAG-QP400-142,Flight QP400 on time final boarding at Gate C22,Monsoon weather advisory monitored by central flight dispatch team
+143,SG557,Mumbai,Guwahati,DELAYED,D9,R1,07:40,10:25,SpiceJet,115,BAG-SG557-143,Flight SG557 delayed due to air traffic congestion,Pre-flight safety inspection completed successfully by ground crew
+144,AI229,Bangalore,Goa,CANCELLED,C12,R4,23:00,02:15,Air India,190,BAG-AI229-144,Flight AI229 cancelled technical maintenance required,Transit passenger assistance coordinated at international transfer desk
+145,AI687,Chennai,Bhubaneswar,ON-TIME,D11,R3,12:10,13:55,Air India,122,BAG-AI687-145,Flight AI687 priority departure clearance granted,Refueling protocol and ramp safety clearance completed at Gate D11
+146,QP220,Goa,Kochi,BOARDING,D7,R3,20:20,21:35,Akasa Air,93,BAG-QP220-146,Flight QP220 boarding in progress for flight to Kochi,Pre-flight safety inspection completed successfully by ground crew
+147,AI929,Jaipur,Guwahati,BOARDING,A18,R3,14:15,18:00,Air India,119,BAG-AI929-147,Flight AI929 priority boarding commenced at Gate A18,Refueling protocol and ramp safety clearance completed at Gate A18
+148,AI305,Chennai,Goa,DELAYED,A12,R3,19:50,21:35,Air India,97,BAG-AI305-148,Flight AI305 delayed due to air traffic congestion,Runway clearance issued by regional air traffic control tower
+149,9I836,Amritsar,Bhubaneswar,ON-TIME,D19,R1,09:30,12:45,Alliance Air,190,BAG-9I836-149,Flight 9I836 priority departure clearance granted,Fast track boarding operational for frequent flyer club members
+150,6E999,Bhubaneswar,Patna,ON-TIME,B14,R1,08:50,10:20,IndiGo,117,BAG-6E999-150,Flight 6E999 on time final boarding at Gate B14,Transit passenger assistance coordinated at international transfer desk
+151,SG631,Kochi,Bangalore,ON-TIME,B21,R3,09:25,13:10,SpiceJet,98,BAG-SG631-151,Flight SG631 on time departure scheduled from Kochi,Fast track boarding operational for frequent flyer club members
+152,QP694,Chennai,Ahmedabad,BOARDING,C19,R1,05:10,06:55,Akasa Air,222,BAG-QP694-152,Flight QP694 priority boarding commenced at Gate C19,Fast track boarding operational for frequent flyer club members
+153,QP526,Patna,Delhi,DELAYED,C21,R3,20:20,23:50,Akasa Air,151,BAG-QP526-153,Flight QP526 delayed awaiting inbound connecting aircraft,Baggage transfer operational on carousel 1 at destination
+154,6E550,Chandigarh,Srinagar,DELAYED,B11,R2,15:30,19:00,IndiGo,177,BAG-6E550-154,Flight 6E550 delayed due to technical inspection,Secondary runway backup assigned for optimal flow management
+155,QP675,Hyderabad,Lucknow,ON-TIME,D4,R3,19:20,20:35,Akasa Air,87,BAG-QP675-155,Flight QP675 operating normally on Runway R3,Aircraft turnaround routine servicing completed on schedule
+156,6E986,Kolkata,Lucknow,DELAYED,C7,R2,20:50,23:20,IndiGo,153,BAG-6E986-156,Flight 6E986 delayed awaiting inbound connecting aircraft,Regular scheduled domestic flight connecting Kolkata and Lucknow
+157,UK617,Varanasi,Pune,ON-TIME,C2,R1,14:45,18:30,Vistara,195,BAG-UK617-157,Flight UK617 operating normally on Runway R1,Refueling protocol and ramp safety clearance completed at Gate C2
+158,AI541,Chennai,Kochi,CANCELLED,C25,R4,16:00,18:15,Air India,220,BAG-AI541-158,Flight AI541 cancelled passenger refunds initiated,In-flight catering services loaded for morning departure sector
+159,QP395,Bangalore,Chandigarh,DELAYED,D25,R3,08:15,09:45,Akasa Air,170,BAG-QP395-159,Flight QP395 delayed due to inclement weather conditions,Refueling protocol and ramp safety clearance completed at Gate D25
+160,6E303,Patna,Srinagar,ON-TIME,A2,R1,09:30,12:15,IndiGo,191,BAG-6E303-160,Flight 6E303 on time final boarding at Gate A2,Night operations quiet flight departure protocol activated
+161,SG727,Jaipur,Kolkata,ON-TIME,C19,R3,21:50,01:20,SpiceJet,219,BAG-SG727-161,Flight SG727 operating normally on Runway R3,Special baggage handling protocol applied for fragile cargo
+162,SG439,Hyderabad,Varanasi,DELAYED,C24,R1,20:25,00:10,SpiceJet,222,BAG-SG439-162,Flight SG439 delayed due to technical inspection,Monsoon weather advisory monitored by central flight dispatch team
+163,QP591,Kolkata,Bhubaneswar,BOARDING,D5,R2,06:10,07:25,Akasa Air,187,BAG-QP591-163,Flight QP591 priority boarding commenced at Gate D5,Aircraft turnaround routine servicing completed on schedule
+164,UK807,Ahmedabad,Varanasi,DELAYED,D24,R1,09:50,11:35,Vistara,158,BAG-UK807-164,Flight UK807 delayed due to late crew arrival,Special baggage handling protocol applied for fragile cargo
+165,SG277,Varanasi,Indore,ON-TIME,C22,R3,20:20,21:50,SpiceJet,217,BAG-SG277-165,Flight SG277 operating normally on Runway R3,In-flight catering services loaded for morning departure sector
+166,SG821,Ahmedabad,Srinagar,ON-TIME,D12,R3,14:10,17:55,SpiceJet,214,BAG-SG821-166,Flight SG821 priority departure clearance granted,Medical kit and emergency equipment certified by safety inspector
+167,SG891,Chennai,Jaipur,ON-TIME,C23,R1,16:45,20:15,SpiceJet,197,BAG-SG891-167,Flight SG891 on time final boarding at Gate C23,In-flight catering services loaded for morning departure sector
+168,QP812,Goa,Chennai,ON-TIME,B8,R1,21:20,00:35,Akasa Air,88,BAG-QP812-168,Flight QP812 is on schedule departing to Chennai,Aircraft turnaround routine servicing completed on schedule
+169,9I583,Hyderabad,Kolkata,ON-TIME,B14,R4,20:20,22:50,Alliance Air,148,BAG-9I583-169,Flight 9I583 scheduled on time with full passenger load,Regular scheduled domestic flight connecting Hyderabad and Kolkata
+170,9I687,Pune,Indore,CANCELLED,A6,R4,10:00,12:30,Alliance Air,122,BAG-9I687-170,Flight 9I687 cancelled technical maintenance required,Medical kit and emergency equipment certified by safety inspector
+171,AI405,Indore,Hyderabad,ON-TIME,C15,R4,09:50,12:20,Air India,124,BAG-AI405-171,Flight AI405 is on schedule departing to Hyderabad,Transit passenger assistance coordinated at international transfer desk
+172,9I569,Goa,Kolkata,ON-TIME,C10,R2,10:40,13:25,Alliance Air,158,BAG-9I569-172,Flight 9I569 is on schedule departing to Kolkata,Aircraft turnaround routine servicing completed on schedule
+173,6E243,Amritsar,Jaipur,ON-TIME,A9,R4,12:45,15:15,IndiGo,152,BAG-6E243-173,Flight 6E243 on time departure scheduled from Amritsar,Monsoon weather advisory monitored by central flight dispatch team
+174,SG769,Lucknow,Pune,ON-TIME,A15,R3,10:40,14:25,SpiceJet,154,BAG-SG769-174,Flight SG769 scheduled on time with full passenger load,Baggage transfer operational on carousel 5 at destination
+175,SG729,Pune,Goa,ON-TIME,D5,R4,16:40,20:25,SpiceJet,195,BAG-SG729-175,Flight SG729 on time departure scheduled from Pune,Secondary runway backup assigned for optimal flow management
+176,6E796,Patna,Bangalore,DELAYED,D17,R3,07:10,08:55,IndiGo,204,BAG-6E796-176,Flight 6E796 delayed due to technical inspection,Night operations quiet flight departure protocol activated
+177,6E435,Srinagar,Varanasi,ON-TIME,B23,R4,07:50,10:05,IndiGo,191,BAG-6E435-177,Flight 6E435 on time final boarding at Gate B23,Refueling protocol and ramp safety clearance completed at Gate B23
+178,UK677,Mumbai,Indore,DELAYED,C24,R1,17:25,19:10,Vistara,130,BAG-UK677-178,Flight UK677 delayed due to runway maintenance window,Baggage transfer operational on carousel 1 at destination
+179,UK452,Bangalore,Indore,ON-TIME,A16,R1,14:40,15:55,Vistara,182,BAG-UK452-179,Flight UK452 operating normally on Runway R1,Medical kit and emergency equipment certified by safety inspector
+180,UK990,Guwahati,Chandigarh,ON-TIME,B21,R3,08:15,11:45,Vistara,210,BAG-UK990-180,Flight UK990 on time final boarding at Gate B21,Monsoon weather advisory monitored by central flight dispatch team
+181,AI874,Delhi,Jaipur,DELAYED,D18,R4,12:20,14:50,Air India,114,BAG-AI874-181,Flight AI874 delayed due to inclement weather conditions,In-flight catering services loaded for morning departure sector
+182,AI928,Chandigarh,Delhi,ON-TIME,B3,R1,06:45,10:30,Air India,87,BAG-AI928-182,Flight AI928 on time final boarding at Gate B3,Monsoon weather advisory monitored by central flight dispatch team
+183,UK549,Pune,Indore,ON-TIME,A5,R3,12:30,16:15,Vistara,157,BAG-UK549-183,Flight UK549 on time final boarding at Gate A5,Runway clearance issued by regional air traffic control tower
+184,9I633,Pune,Varanasi,ON-TIME,C2,R2,18:50,21:05,Alliance Air,163,BAG-9I633-184,Flight 9I633 scheduled on time with full passenger load,Fast track boarding operational for frequent flyer club members
+185,QP426,Chandigarh,Varanasi,ON-TIME,C13,R2,22:45,00:00,Akasa Air,151,BAG-QP426-185,Flight QP426 scheduled on time with full passenger load,Pre-flight safety inspection completed successfully by ground crew
+186,AI675,Chandigarh,Varanasi,DELAYED,B13,R2,13:20,16:05,Air India,95,BAG-AI675-186,Flight AI675 delayed awaiting inbound connecting aircraft,Express gate clearance initiated for short turnaround connection
+187,AI648,Ahmedabad,Mumbai,ON-TIME,D22,R1,07:20,11:05,Air India,218,BAG-AI648-187,Flight AI648 on time final boarding at Gate D22,Special baggage handling protocol applied for fragile cargo
+188,SG410,Delhi,Pune,ON-TIME,A24,R4,12:20,14:35,SpiceJet,216,BAG-SG410-188,Flight SG410 operating normally on Runway R4,Secondary runway backup assigned for optimal flow management
+189,UK577,Bhubaneswar,Lucknow,ON-TIME,C12,R4,19:10,22:40,Vistara,156,BAG-UK577-189,Flight UK577 on time final boarding at Gate C12,Transit passenger assistance coordinated at international transfer desk
+190,UK146,Indore,Pune,CANCELLED,B1,R3,22:40,00:55,Vistara,125,BAG-UK146-190,Flight UK146 cancelled technical maintenance required,In-flight catering services loaded for morning departure sector
+191,QP953,Pune,Srinagar,DELAYED,C9,R4,20:45,22:30,Akasa Air,165,BAG-QP953-191,Flight QP953 delayed due to technical inspection,Pre-flight safety inspection completed successfully by ground crew
+192,6E655,Mumbai,Bhubaneswar,ON-TIME,A22,R1,05:40,07:25,IndiGo,134,BAG-6E655-192,Flight 6E655 is on schedule departing to Bhubaneswar,Monsoon weather advisory monitored by central flight dispatch team
+193,AI323,Srinagar,Varanasi,ON-TIME,A20,R4,20:00,21:45,Air India,216,BAG-AI323-193,Flight AI323 priority departure clearance granted,Regular scheduled domestic flight connecting Srinagar and Varanasi
+194,QP839,Goa,Indore,ON-TIME,A17,R4,10:10,11:55,Akasa Air,113,BAG-QP839-194,Flight QP839 on time final boarding at Gate A17,In-flight catering services loaded for morning departure sector
+195,SG373,Guwahati,Bangalore,ON-TIME,D15,R2,12:25,15:40,SpiceJet,83,BAG-SG373-195,Flight SG373 is on schedule departing to Bangalore,Aircraft turnaround routine servicing completed on schedule
+196,UK665,Amritsar,Mumbai,BOARDING,A23,R2,07:45,10:30,Vistara,159,BAG-UK665-196,Flight UK665 gate closing soon at Gate A23,Express gate clearance initiated for short turnaround connection
+197,QP143,Pune,Ahmedabad,BOARDING,D9,R1,07:25,11:10,Akasa Air,83,BAG-QP143-197,Flight QP143 final call for all passengers to board,Medical kit and emergency equipment certified by safety inspector
+198,AI312,Indore,Chennai,CANCELLED,D3,R3,10:20,13:50,Air India,213,BAG-AI312-198,Flight AI312 cancelled technical maintenance required,Aircraft turnaround routine servicing completed on schedule
+199,9I841,Bangalore,Bhubaneswar,CANCELLED,C2,R1,18:20,19:50,Alliance Air,229,BAG-9I841-199,Flight 9I841 cancelled passenger refunds initiated,Night operations quiet flight departure protocol activated
+200,SG130,Goa,Amritsar,DELAYED,B12,R4,18:15,22:00,SpiceJet,172,BAG-SG130-200,Flight SG130 delayed due to air traffic congestion,Secondary runway backup assigned for optimal flow management
+201,6E830,Bangalore,Hyderabad,ON-TIME,B13,R2,17:30,19:45,IndiGo,98,BAG-6E830-201,Flight 6E830 is on schedule departing to Hyderabad,Runway clearance issued by regional air traffic control tower
+202,SG879,Goa,Hyderabad,ON-TIME,A6,R4,19:50,23:35,SpiceJet,179,BAG-SG879-202,Flight SG879 is on schedule departing to Hyderabad,Regular scheduled domestic flight connecting Goa and Hyderabad
+203,SG667,Bangalore,Lucknow,ON-TIME,A10,R4,17:10,20:55,SpiceJet,137,BAG-SG667-203,Flight SG667 on time departure scheduled from Bangalore,Refueling protocol and ramp safety clearance completed at Gate A10
+204,9I489,Kolkata,Chennai,ON-TIME,C9,R4,09:10,10:40,Alliance Air,145,BAG-9I489-204,Flight 9I489 priority departure clearance granted,Runway clearance issued by regional air traffic control tower
+205,AI469,Goa,Pune,CANCELLED,D20,R2,19:10,20:40,Air India,76,BAG-AI469-205,Flight AI469 cancelled due to airspace flow restrictions,Transit passenger assistance coordinated at international transfer desk
+206,SG550,Jaipur,Varanasi,BOARDING,B10,R3,11:45,14:00,SpiceJet,176,BAG-SG550-206,Flight SG550 priority boarding commenced at Gate B10,Runway clearance issued by regional air traffic control tower
+207,QP900,Pune,Lucknow,ON-TIME,C13,R3,08:20,12:05,Akasa Air,121,BAG-QP900-207,Flight QP900 scheduled on time with full passenger load,Secondary runway backup assigned for optimal flow management
+208,9I572,Ahmedabad,Amritsar,ON-TIME,A14,R4,09:25,10:55,Alliance Air,114,BAG-9I572-208,Flight 9I572 scheduled on time with full passenger load,Aircraft turnaround routine servicing completed on schedule
+209,AI559,Patna,Amritsar,DELAYED,D18,R4,22:00,00:45,Air India,212,BAG-AI559-209,Flight AI559 delayed due to runway maintenance window,Fast track boarding operational for frequent flyer club members
+210,AI887,Pune,Guwahati,ON-TIME,A19,R4,15:40,16:55,Air India,100,BAG-AI887-210,Flight AI887 operating normally on Runway R4,In-flight catering services loaded for morning departure sector
+211,UK483,Guwahati,Amritsar,CANCELLED,B12,R1,20:10,22:40,Vistara,96,BAG-UK483-211,Flight UK483 cancelled due to adverse weather alert,Express gate clearance initiated for short turnaround connection
+212,SG419,Jaipur,Amritsar,ON-TIME,D12,R4,08:45,12:30,SpiceJet,190,BAG-SG419-212,Flight SG419 operating normally on Runway R4,Baggage transfer operational on carousel 5 at destination
+213,AI929,Hyderabad,Delhi,ON-TIME,A22,R2,12:50,14:35,Air India,115,BAG-AI929-213,Flight AI929 operating normally on Runway R2,Refueling protocol and ramp safety clearance completed at Gate A22
+214,UK337,Guwahati,Kolkata,ON-TIME,D13,R1,11:45,15:15,Vistara,174,BAG-UK337-214,Flight UK337 is on schedule departing to Kolkata,Monsoon weather advisory monitored by central flight dispatch team
+215,6E385,Bangalore,Patna,ON-TIME,B12,R3,11:45,13:15,IndiGo,200,BAG-6E385-215,Flight 6E385 on time departure scheduled from Bangalore,Fast track boarding operational for frequent flyer club members
+216,QP497,Patna,Guwahati,DELAYED,A12,R3,19:15,23:00,Akasa Air,151,BAG-QP497-216,Flight QP497 delayed due to runway maintenance window,Night operations quiet flight departure protocol activated
+217,9I237,Jaipur,Hyderabad,ON-TIME,C4,R2,16:15,19:45,Alliance Air,182,BAG-9I237-217,Flight 9I237 on time departure scheduled from Jaipur,Pre-flight safety inspection completed successfully by ground crew
+218,UK290,Amritsar,Indore,BOARDING,B18,R2,20:25,21:40,Vistara,155,BAG-UK290-218,Flight UK290 boarding in progress for flight to Indore,Night operations quiet flight departure protocol activated
+219,SG109,Amritsar,Chennai,ON-TIME,D18,R4,18:45,21:30,SpiceJet,188,BAG-SG109-219,Flight SG109 priority departure clearance granted,Pre-flight safety inspection completed successfully by ground crew
+220,QP131,Pune,Jaipur,ON-TIME,C8,R3,10:45,14:30,Akasa Air,201,BAG-QP131-220,Flight QP131 on time departure scheduled from Pune,Refueling protocol and ramp safety clearance completed at Gate C8
+221,QP216,Goa,Indore,ON-TIME,A25,R4,22:20,00:35,Akasa Air,138,BAG-QP216-221,Flight QP216 operating normally on Runway R4,Express gate clearance initiated for short turnaround connection
+222,UK369,Lucknow,Bangalore,DELAYED,A25,R2,11:30,15:15,Vistara,184,BAG-UK369-222,Flight UK369 delayed due to technical inspection,Night operations quiet flight departure protocol activated
+223,6E933,Ahmedabad,Mumbai,DELAYED,C18,R3,22:15,01:00,IndiGo,149,BAG-6E933-223,Flight 6E933 delayed due to inclement weather conditions,Night operations quiet flight departure protocol activated
+224,QP795,Hyderabad,Kolkata,CANCELLED,D2,R3,09:15,10:30,Akasa Air,157,BAG-QP795-224,Flight QP795 cancelled due to operational constraints,Secondary runway backup assigned for optimal flow management
+225,UK245,Indore,Goa,BOARDING,D13,R4,07:10,09:55,Vistara,146,BAG-UK245-225,Flight UK245 priority boarding commenced at Gate D13,Special baggage handling protocol applied for fragile cargo
+226,SG695,Delhi,Hyderabad,CANCELLED,D21,R3,07:50,10:05,SpiceJet,184,BAG-SG695-226,Flight SG695 cancelled due to operational constraints,Special baggage handling protocol applied for fragile cargo
+227,SG948,Kochi,Lucknow,DELAYED,B19,R4,15:00,16:15,SpiceJet,192,BAG-SG948-227,Flight SG948 delayed due to air traffic congestion,Baggage transfer operational on carousel 3 at destination
+228,UK567,Delhi,Varanasi,ON-TIME,B21,R3,10:25,12:10,Vistara,167,BAG-UK567-228,Flight UK567 operating normally on Runway R3,Baggage transfer operational on carousel 6 at destination
+229,9I764,Kolkata,Mumbai,ON-TIME,C24,R2,18:10,21:25,Alliance Air,75,BAG-9I764-229,Flight 9I764 on time final boarding at Gate C24,Special baggage handling protocol applied for fragile cargo
+230,6E707,Pune,Bhubaneswar,BOARDING,D1,R1,15:10,17:55,IndiGo,108,BAG-6E707-230,Flight 6E707 boarding in progress for flight to Bhubaneswar,Baggage transfer operational on carousel 4 at destination
+231,UK191,Hyderabad,Chennai,ON-TIME,C10,R2,17:15,21:00,Vistara,111,BAG-UK191-231,Flight UK191 is on schedule departing to Chennai,Refueling protocol and ramp safety clearance completed at Gate C10
+232,QP765,Kolkata,Amritsar,ON-TIME,B21,R2,18:45,20:00,Akasa Air,100,BAG-QP765-232,Flight QP765 on time final boarding at Gate B21,Secondary runway backup assigned for optimal flow management
+233,QP847,Guwahati,Lucknow,ON-TIME,C5,R2,13:10,14:55,Akasa Air,228,BAG-QP847-233,Flight QP847 on time departure scheduled from Guwahati,Monsoon weather advisory monitored by central flight dispatch team
+234,9I127,Kochi,Ahmedabad,DELAYED,B24,R4,14:00,15:30,Alliance Air,173,BAG-9I127-234,Flight 9I127 delayed due to air traffic congestion,In-flight catering services loaded for morning departure sector
+235,9I708,Bangalore,Bhubaneswar,ON-TIME,C11,R2,17:40,20:25,Alliance Air,119,BAG-9I708-235,Flight 9I708 priority departure clearance granted,Secondary runway backup assigned for optimal flow management
+236,AI701,Bangalore,Delhi,ON-TIME,B2,R1,17:50,20:35,Air India,203,BAG-AI701-236,Flight AI701 priority departure clearance granted,Aircraft turnaround routine servicing completed on schedule
+237,AI755,Bhubaneswar,Indore,DELAYED,B9,R1,14:10,17:25,Air India,114,BAG-AI755-237,Flight AI755 delayed due to runway maintenance window,Transit passenger assistance coordinated at international transfer desk
+238,QP749,Bangalore,Jaipur,BOARDING,D24,R2,06:20,07:50,Akasa Air,104,BAG-QP749-238,Flight QP749 boarding in progress for flight to Jaipur,Night operations quiet flight departure protocol activated
+239,SG782,Kolkata,Hyderabad,ON-TIME,B23,R1,10:45,13:30,SpiceJet,207,BAG-SG782-239,Flight SG782 scheduled on time with full passenger load,Runway clearance issued by regional air traffic control tower
+240,SG229,Goa,Hyderabad,CANCELLED,A11,R4,13:50,15:20,SpiceJet,222,BAG-SG229-240,Flight SG229 cancelled due to adverse weather alert,Special baggage handling protocol applied for fragile cargo
+241,QP468,Mumbai,Srinagar,DELAYED,B12,R2,13:10,16:55,Akasa Air,104,BAG-QP468-241,Flight QP468 delayed due to technical inspection,Monsoon weather advisory monitored by central flight dispatch team
+242,AI979,Delhi,Goa,ON-TIME,D12,R4,09:15,11:00,Air India,182,BAG-AI979-242,Flight AI979 on time final boarding at Gate D12,Transit passenger assistance coordinated at international transfer desk
+243,UK837,Jaipur,Goa,ON-TIME,C4,R1,10:20,13:35,Vistara,177,BAG-UK837-243,Flight UK837 is on schedule departing to Goa,Medical kit and emergency equipment certified by safety inspector
+244,SG892,Kochi,Lucknow,ON-TIME,D1,R3,11:25,14:55,SpiceJet,137,BAG-SG892-244,Flight SG892 priority departure clearance granted,Transit passenger assistance coordinated at international transfer desk
+245,6E850,Bhubaneswar,Pune,ON-TIME,A14,R1,12:50,15:35,IndiGo,77,BAG-6E850-245,Flight 6E850 operating normally on Runway R1,Regular scheduled domestic flight connecting Bhubaneswar and Pune
+246,9I844,Kochi,Hyderabad,ON-TIME,B14,R4,06:15,09:45,Alliance Air,98,BAG-9I844-246,Flight 9I844 is on schedule departing to Hyderabad,Medical kit and emergency equipment certified by safety inspector
+247,QP522,Lucknow,Amritsar,CANCELLED,A19,R1,21:15,00:45,Akasa Air,94,BAG-QP522-247,Flight QP522 cancelled passenger refunds initiated,Night operations quiet flight departure protocol activated
+248,UK778,Chennai,Goa,ON-TIME,C11,R4,15:30,18:00,Vistara,134,BAG-UK778-248,Flight UK778 is on schedule departing to Goa,In-flight catering services loaded for morning departure sector
+249,QP211,Chennai,Hyderabad,ON-TIME,D15,R3,18:10,21:40,Akasa Air,128,BAG-QP211-249,Flight QP211 priority departure clearance granted,Runway clearance issued by regional air traffic control tower
+250,SG972,Hyderabad,Bangalore,ON-TIME,C23,R1,11:30,12:45,SpiceJet,138,BAG-SG972-250,Flight SG972 operating normally on Runway R1,Aircraft turnaround routine servicing completed on schedule
+251,9I406,Goa,Kolkata,ON-TIME,D15,R2,08:45,10:00,Alliance Air,106,BAG-9I406-251,Flight 9I406 is on schedule departing to Kolkata,Regular scheduled domestic flight connecting Goa and Kolkata
+252,6E302,Guwahati,Lucknow,BOARDING,A19,R3,07:00,08:15,IndiGo,188,BAG-6E302-252,Flight 6E302 final call for all passengers to board,Baggage transfer operational on carousel 6 at destination
+253,AI143,Varanasi,Mumbai,ON-TIME,D24,R4,20:00,22:45,Air India,184,BAG-AI143-253,Flight AI143 on time final boarding at Gate D24,Transit passenger assistance coordinated at international transfer desk
+254,6E381,Goa,Amritsar,ON-TIME,A20,R2,14:45,17:30,IndiGo,197,BAG-6E381-254,Flight 6E381 is on schedule departing to Amritsar,Baggage transfer operational on carousel 5 at destination
+255,UK240,Chandigarh,Ahmedabad,BOARDING,B21,R1,17:30,20:15,Vistara,199,BAG-UK240-255,Flight UK240 priority boarding commenced at Gate B21,Medical kit and emergency equipment certified by safety inspector
+256,UK376,Kolkata,Delhi,ON-TIME,B1,R3,06:45,10:15,Vistara,224,BAG-UK376-256,Flight UK376 on time final boarding at Gate B1,Pre-flight safety inspection completed successfully by ground crew
+257,6E772,Pune,Kochi,DELAYED,A25,R2,23:40,01:55,IndiGo,120,BAG-6E772-257,Flight 6E772 delayed due to technical inspection,Night operations quiet flight departure protocol activated
+258,9I814,Lucknow,Patna,ON-TIME,C19,R2,23:20,02:05,Alliance Air,154,BAG-9I814-258,Flight 9I814 on time final boarding at Gate C19,Special baggage handling protocol applied for fragile cargo
+259,AI157,Pune,Goa,ON-TIME,D1,R3,11:15,14:00,Air India,120,BAG-AI157-259,Flight AI157 operating normally on Runway R3,Regular scheduled domestic flight connecting Pune and Goa
+260,6E700,Chennai,Hyderabad,DELAYED,C3,R3,17:10,19:40,IndiGo,157,BAG-6E700-260,Flight 6E700 delayed due to technical inspection,Pre-flight safety inspection completed successfully by ground crew
+261,9I598,Jaipur,Kolkata,BOARDING,C8,R2,17:25,21:10,Alliance Air,150,BAG-9I598-261,Flight 9I598 final call for all passengers to board,Pre-flight safety inspection completed successfully by ground crew
+262,9I686,Guwahati,Patna,ON-TIME,B20,R3,12:10,14:25,Alliance Air,159,BAG-9I686-262,Flight 9I686 scheduled on time with full passenger load,Baggage transfer operational on carousel 4 at destination
+263,SG427,Kolkata,Bangalore,BOARDING,C15,R1,13:20,15:05,SpiceJet,92,BAG-SG427-263,Flight SG427 priority boarding commenced at Gate C15,Runway clearance issued by regional air traffic control tower
+264,9I101,Mumbai,Chandigarh,DELAYED,D6,R4,20:40,23:25,Alliance Air,171,BAG-9I101-264,Flight 9I101 delayed due to air traffic congestion,Express gate clearance initiated for short turnaround connection
+265,QP766,Pune,Kolkata,DELAYED,A2,R3,05:30,07:45,Akasa Air,93,BAG-QP766-265,Flight QP766 delayed due to inclement weather conditions,Pre-flight safety inspection completed successfully by ground crew
+266,6E849,Bangalore,Indore,ON-TIME,C20,R4,05:40,08:55,IndiGo,230,BAG-6E849-266,Flight 6E849 priority departure clearance granted,Pre-flight safety inspection completed successfully by ground crew
+267,AI439,Ahmedabad,Pune,ON-TIME,C22,R3,14:20,15:35,Air India,175,BAG-AI439-267,Flight AI439 on time departure scheduled from Ahmedabad,Refueling protocol and ramp safety clearance completed at Gate C22
+268,6E155,Lucknow,Delhi,ON-TIME,A10,R4,11:10,12:25,IndiGo,118,BAG-6E155-268,Flight 6E155 scheduled on time with full passenger load,Runway clearance issued by regional air traffic control tower
+269,UK964,Hyderabad,Jaipur,ON-TIME,D16,R3,07:50,10:05,Vistara,169,BAG-UK964-269,Flight UK964 priority departure clearance granted,Transit passenger assistance coordinated at international transfer desk
+270,UK145,Goa,Amritsar,DELAYED,C8,R3,23:00,00:45,Vistara,99,BAG-UK145-270,Flight UK145 delayed due to air traffic congestion,Fast track boarding operational for frequent flyer club members
+271,QP523,Indore,Pune,DELAYED,A13,R4,22:45,02:00,Akasa Air,196,BAG-QP523-271,Flight QP523 delayed due to inclement weather conditions,Baggage transfer operational on carousel 7 at destination
+272,9I135,Srinagar,Patna,DELAYED,B4,R4,10:15,11:30,Alliance Air,107,BAG-9I135-272,Flight 9I135 delayed due to air traffic congestion,Aircraft turnaround routine servicing completed on schedule
+273,9I545,Ahmedabad,Chennai,DELAYED,C11,R1,07:40,11:10,Alliance Air,216,BAG-9I545-273,Flight 9I545 delayed due to inclement weather conditions,Express gate clearance initiated for short turnaround connection
+274,QP569,Delhi,Patna,DELAYED,D4,R4,09:15,13:00,Akasa Air,224,BAG-QP569-274,Flight QP569 delayed due to air traffic congestion,Medical kit and emergency equipment certified by safety inspector
+275,QP898,Hyderabad,Jaipur,DELAYED,C14,R3,17:45,21:30,Akasa Air,196,BAG-QP898-275,Flight QP898 delayed due to air traffic congestion,Pre-flight safety inspection completed successfully by ground crew
+276,UK247,Patna,Guwahati,ON-TIME,D11,R2,06:45,09:15,Vistara,80,BAG-UK247-276,Flight UK247 operating normally on Runway R2,Express gate clearance initiated for short turnaround connection
+277,SG387,Amritsar,Hyderabad,ON-TIME,B10,R4,15:25,18:55,SpiceJet,229,BAG-SG387-277,Flight SG387 scheduled on time with full passenger load,Baggage transfer operational on carousel 4 at destination
+278,UK316,Chandigarh,Srinagar,CANCELLED,C2,R2,07:25,11:10,Vistara,178,BAG-UK316-278,Flight UK316 cancelled due to operational constraints,Secondary runway backup assigned for optimal flow management
+279,6E297,Ahmedabad,Mumbai,ON-TIME,A15,R1,16:20,18:50,IndiGo,193,BAG-6E297-279,Flight 6E297 on time departure scheduled from Ahmedabad,Aircraft turnaround routine servicing completed on schedule
+280,9I131,Pune,Guwahati,DELAYED,D6,R4,23:50,02:20,Alliance Air,116,BAG-9I131-280,Flight 9I131 delayed due to inclement weather conditions,Monsoon weather advisory monitored by central flight dispatch team
+281,SG128,Guwahati,Mumbai,ON-TIME,B8,R2,11:25,14:55,SpiceJet,206,BAG-SG128-281,Flight SG128 is on schedule departing to Mumbai,Express gate clearance initiated for short turnaround connection
+282,UK235,Kolkata,Delhi,ON-TIME,C20,R3,13:40,16:10,Vistara,192,BAG-UK235-282,Flight UK235 operating normally on Runway R3,In-flight catering services loaded for morning departure sector
+283,SG793,Srinagar,Guwahati,DELAYED,A1,R3,22:25,01:10,SpiceJet,102,BAG-SG793-283,Flight SG793 delayed awaiting inbound connecting aircraft,Baggage transfer operational on carousel 6 at destination
+284,SG755,Jaipur,Goa,ON-TIME,C7,R2,21:20,23:05,SpiceJet,178,BAG-SG755-284,Flight SG755 scheduled on time with full passenger load,Transit passenger assistance coordinated at international transfer desk
+285,9I126,Amritsar,Kochi,ON-TIME,D13,R4,06:20,09:05,Alliance Air,131,BAG-9I126-285,Flight 9I126 scheduled on time with full passenger load,Refueling protocol and ramp safety clearance completed at Gate D13
+286,9I467,Srinagar,Kochi,ON-TIME,B10,R1,20:15,23:45,Alliance Air,218,BAG-9I467-286,Flight 9I467 on time final boarding at Gate B10,Fast track boarding operational for frequent flyer club members
+287,9I191,Pune,Guwahati,ON-TIME,C14,R3,16:25,19:55,Alliance Air,193,BAG-9I191-287,Flight 9I191 is on schedule departing to Guwahati,Special baggage handling protocol applied for fragile cargo
+288,9I697,Indore,Bangalore,DELAYED,B17,R1,17:50,20:20,Alliance Air,88,BAG-9I697-288,Flight 9I697 delayed due to technical inspection,Pre-flight safety inspection completed successfully by ground crew
+289,SG519,Indore,Varanasi,ON-TIME,C23,R2,07:45,10:30,SpiceJet,120,BAG-SG519-289,Flight SG519 operating normally on Runway R2,Fast track boarding operational for frequent flyer club members
+290,AI562,Goa,Ahmedabad,CANCELLED,B19,R2,20:10,21:55,Air India,186,BAG-AI562-290,Flight AI562 cancelled due to airspace flow restrictions,Aircraft turnaround routine servicing completed on schedule
+291,UK492,Delhi,Bangalore,DELAYED,B24,R3,05:30,08:45,Vistara,79,BAG-UK492-291,Flight UK492 delayed due to late crew arrival,Regular scheduled domestic flight connecting Delhi and Bangalore
+292,6E810,Lucknow,Kochi,ON-TIME,A13,R3,10:10,11:40,IndiGo,149,BAG-6E810-292,Flight 6E810 priority departure clearance granted,Monsoon weather advisory monitored by central flight dispatch team
+293,UK803,Chennai,Lucknow,DELAYED,C25,R2,10:40,11:55,Vistara,132,BAG-UK803-293,Flight UK803 delayed due to late crew arrival,Pre-flight safety inspection completed successfully by ground crew
+294,9I122,Indore,Srinagar,ON-TIME,A12,R1,17:25,21:10,Alliance Air,87,BAG-9I122-294,Flight 9I122 on time departure scheduled from Indore,Regular scheduled domestic flight connecting Indore and Srinagar
+295,9I956,Delhi,Bangalore,BOARDING,A14,R4,17:10,20:40,Alliance Air,196,BAG-9I956-295,Flight 9I956 final call for all passengers to board,In-flight catering services loaded for morning departure sector
+296,SG530,Hyderabad,Bhubaneswar,ON-TIME,B14,R1,21:10,23:25,SpiceJet,102,BAG-SG530-296,Flight SG530 priority departure clearance granted,In-flight catering services loaded for morning departure sector
+297,SG951,Srinagar,Ahmedabad,ON-TIME,D10,R2,06:50,09:05,SpiceJet,198,BAG-SG951-297,Flight SG951 operating normally on Runway R2,In-flight catering services loaded for morning departure sector
+298,AI787,Bangalore,Chennai,DELAYED,D5,R1,21:10,00:55,Air India,100,BAG-AI787-298,Flight AI787 delayed due to inclement weather conditions,Fast track boarding operational for frequent flyer club members
+299,UK403,Goa,Amritsar,ON-TIME,A6,R1,14:30,18:00,Vistara,184,BAG-UK403-299,Flight UK403 scheduled on time with full passenger load,Baggage transfer operational on carousel 2 at destination
+300,AI109,Chennai,Ahmedabad,ON-TIME,C15,R3,07:30,09:45,Air India,104,BAG-AI109-300,Flight AI109 priority departure clearance granted,Aircraft turnaround routine servicing completed on schedule
+301,SG955,Guwahati,Srinagar,ON-TIME,B4,R2,06:15,07:45,SpiceJet,226,BAG-SG955-301,Flight SG955 priority departure clearance granted,Secondary runway backup assigned for optimal flow management
+302,6E725,Guwahati,Lucknow,DELAYED,A22,R2,20:45,22:15,IndiGo,187,BAG-6E725-302,Flight 6E725 delayed due to air traffic congestion,Baggage transfer operational on carousel 5 at destination
+303,9I421,Delhi,Bhubaneswar,CANCELLED,B22,R3,21:50,01:35,Alliance Air,99,BAG-9I421-303,Flight 9I421 cancelled due to airspace flow restrictions,Fast track boarding operational for frequent flyer club members
+304,UK454,Guwahati,Chennai,DELAYED,A1,R2,21:45,00:00,Vistara,94,BAG-UK454-304,Flight UK454 delayed awaiting inbound connecting aircraft,Transit passenger assistance coordinated at international transfer desk
+305,SG384,Mumbai,Bhubaneswar,ON-TIME,D13,R2,07:45,10:30,SpiceJet,189,BAG-SG384-305,Flight SG384 is on schedule departing to Bhubaneswar,Express gate clearance initiated for short turnaround connection
+306,UK423,Hyderabad,Srinagar,CANCELLED,A4,R4,18:00,21:45,Vistara,75,BAG-UK423-306,Flight UK423 cancelled due to adverse weather alert,Secondary runway backup assigned for optimal flow management
+307,QP675,Ahmedabad,Amritsar,ON-TIME,C2,R2,19:30,23:15,Akasa Air,228,BAG-QP675-307,Flight QP675 priority departure clearance granted,Monsoon weather advisory monitored by central flight dispatch team
+308,9I563,Hyderabad,Chennai,CANCELLED,B1,R3,16:25,20:10,Alliance Air,170,BAG-9I563-308,Flight 9I563 cancelled due to adverse weather alert,Regular scheduled domestic flight connecting Hyderabad and Chennai
+309,UK243,Chandigarh,Hyderabad,ON-TIME,B7,R1,17:20,19:35,Vistara,161,BAG-UK243-309,Flight UK243 is on schedule departing to Hyderabad,Secondary runway backup assigned for optimal flow management
+310,AI748,Indore,Hyderabad,CANCELLED,D15,R2,20:00,23:45,Air India,87,BAG-AI748-310,Flight AI748 cancelled passenger refunds initiated,Medical kit and emergency equipment certified by safety inspector
+311,QP594,Srinagar,Kolkata,BOARDING,B24,R2,08:40,12:25,Akasa Air,230,BAG-QP594-311,Flight QP594 priority boarding commenced at Gate B24,Refueling protocol and ramp safety clearance completed at Gate B24
+312,UK723,Pune,Kochi,ON-TIME,C10,R4,09:15,12:00,Vistara,206,BAG-UK723-312,Flight UK723 operating normally on Runway R4,Express gate clearance initiated for short turnaround connection
+313,9I854,Bhubaneswar,Ahmedabad,ON-TIME,B20,R3,16:15,20:00,Alliance Air,120,BAG-9I854-313,Flight 9I854 on time departure scheduled from Bhubaneswar,Refueling protocol and ramp safety clearance completed at Gate B20
+314,9I218,Lucknow,Indore,DELAYED,D22,R3,18:00,21:15,Alliance Air,81,BAG-9I218-314,Flight 9I218 delayed awaiting inbound connecting aircraft,Pre-flight safety inspection completed successfully by ground crew
+315,9I157,Ahmedabad,Kochi,CANCELLED,B10,R3,09:00,12:30,Alliance Air,127,BAG-9I157-315,Flight 9I157 cancelled passenger refunds initiated,Regular scheduled domestic flight connecting Ahmedabad and Kochi
+316,UK204,Patna,Bhubaneswar,ON-TIME,D8,R3,06:40,09:10,Vistara,155,BAG-UK204-316,Flight UK204 on time departure scheduled from Patna,Regular scheduled domestic flight connecting Patna and Bhubaneswar
+317,9I357,Ahmedabad,Amritsar,ON-TIME,C25,R2,11:25,13:40,Alliance Air,94,BAG-9I357-317,Flight 9I357 on time final boarding at Gate C25,Pre-flight safety inspection completed successfully by ground crew
+318,UK141,Chandigarh,Goa,DELAYED,C5,R2,23:25,00:55,Vistara,194,BAG-UK141-318,Flight UK141 delayed due to late crew arrival,Medical kit and emergency equipment certified by safety inspector
+319,AI257,Jaipur,Mumbai,CANCELLED,C16,R3,07:30,10:45,Air India,122,BAG-AI257-319,Flight AI257 cancelled passenger refunds initiated,Baggage transfer operational on carousel 3 at destination
+320,UK656,Bhubaneswar,Guwahati,ON-TIME,C8,R2,15:30,18:00,Vistara,130,BAG-UK656-320,Flight UK656 on time departure scheduled from Bhubaneswar,Refueling protocol and ramp safety clearance completed at Gate C8
+321,QP943,Delhi,Chennai,BOARDING,C15,R2,12:00,15:30,Akasa Air,172,BAG-QP943-321,Flight QP943 now boarding at Gate C15,Aircraft turnaround routine servicing completed on schedule
+322,QP841,Kochi,Delhi,DELAYED,C17,R4,20:00,22:45,Akasa Air,124,BAG-QP841-322,Flight QP841 delayed due to inclement weather conditions,Refueling protocol and ramp safety clearance completed at Gate C17
+323,AI271,Bhubaneswar,Indore,ON-TIME,A7,R2,18:10,19:55,Air India,186,BAG-AI271-323,Flight AI271 scheduled on time with full passenger load,Express gate clearance initiated for short turnaround connection
+324,9I802,Chennai,Delhi,DELAYED,C2,R1,07:00,08:30,Alliance Air,217,BAG-9I802-324,Flight 9I802 delayed due to air traffic congestion,Night operations quiet flight departure protocol activated
+325,SG517,Guwahati,Amritsar,BOARDING,D14,R3,05:40,08:55,SpiceJet,211,BAG-SG517-325,Flight SG517 now boarding at Gate D14,Fast track boarding operational for frequent flyer club members
+326,9I699,Mumbai,Hyderabad,ON-TIME,A10,R3,07:25,09:55,Alliance Air,176,BAG-9I699-326,Flight 9I699 scheduled on time with full passenger load,Regular scheduled domestic flight connecting Mumbai and Hyderabad
+327,6E646,Pune,Chennai,CANCELLED,D18,R3,09:25,13:10,IndiGo,170,BAG-6E646-327,Flight 6E646 cancelled due to adverse weather alert,Refueling protocol and ramp safety clearance completed at Gate D18
+328,AI142,Delhi,Patna,DELAYED,D18,R1,14:20,18:05,Air India,163,BAG-AI142-328,Flight AI142 delayed due to technical inspection,Aircraft turnaround routine servicing completed on schedule
+329,6E288,Pune,Kochi,ON-TIME,A6,R1,22:45,02:30,IndiGo,93,BAG-6E288-329,Flight 6E288 operating normally on Runway R1,Fast track boarding operational for frequent flyer club members
+330,SG200,Ahmedabad,Patna,DELAYED,C12,R2,12:10,14:55,SpiceJet,92,BAG-SG200-330,Flight SG200 delayed due to technical inspection,Transit passenger assistance coordinated at international transfer desk
+331,UK436,Patna,Kochi,BOARDING,B19,R3,15:40,16:55,Vistara,155,BAG-UK436-331,Flight UK436 final call for all passengers to board,Secondary runway backup assigned for optimal flow management
+332,9I857,Chandigarh,Goa,ON-TIME,B22,R3,20:45,23:15,Alliance Air,153,BAG-9I857-332,Flight 9I857 priority departure clearance granted,Refueling protocol and ramp safety clearance completed at Gate B22
+333,6E761,Patna,Bangalore,ON-TIME,B18,R2,13:10,16:25,IndiGo,79,BAG-6E761-333,Flight 6E761 on time departure scheduled from Patna,Fast track boarding operational for frequent flyer club members
+334,QP692,Guwahati,Patna,ON-TIME,A18,R3,22:50,01:35,Akasa Air,113,BAG-QP692-334,Flight QP692 operating normally on Runway R3,Aircraft turnaround routine servicing completed on schedule
+335,QP850,Kochi,Chennai,DELAYED,A13,R3,21:00,00:15,Akasa Air,117,BAG-QP850-335,Flight QP850 delayed due to runway maintenance window,Pre-flight safety inspection completed successfully by ground crew
+336,6E283,Indore,Patna,BOARDING,B24,R4,16:00,17:30,IndiGo,134,BAG-6E283-336,Flight 6E283 now boarding at Gate B24,Runway clearance issued by regional air traffic control tower
+337,6E143,Ahmedabad,Bhubaneswar,ON-TIME,D16,R4,06:00,09:30,IndiGo,101,BAG-6E143-337,Flight 6E143 scheduled on time with full passenger load,Refueling protocol and ramp safety clearance completed at Gate D16
+338,9I369,Indore,Bhubaneswar,DELAYED,B13,R4,16:10,19:40,Alliance Air,171,BAG-9I369-338,Flight 9I369 delayed due to technical inspection,Refueling protocol and ramp safety clearance completed at Gate B13
+339,SG936,Lucknow,Srinagar,DELAYED,A17,R2,19:15,20:30,SpiceJet,206,BAG-SG936-339,Flight SG936 delayed due to late crew arrival,Runway clearance issued by regional air traffic control tower
+340,6E291,Kolkata,Guwahati,DELAYED,A22,R2,18:30,21:45,IndiGo,198,BAG-6E291-340,Flight 6E291 delayed due to late crew arrival,Special baggage handling protocol applied for fragile cargo
+341,6E704,Kolkata,Varanasi,ON-TIME,B2,R2,23:15,01:00,IndiGo,206,BAG-6E704-341,Flight 6E704 is on schedule departing to Varanasi,Medical kit and emergency equipment certified by safety inspector
+342,AI270,Goa,Kolkata,DELAYED,D20,R1,14:10,15:40,Air India,230,BAG-AI270-342,Flight AI270 delayed awaiting inbound connecting aircraft,Express gate clearance initiated for short turnaround connection
+343,6E324,Chandigarh,Chennai,DELAYED,B20,R3,10:30,13:15,IndiGo,226,BAG-6E324-343,Flight 6E324 delayed due to air traffic congestion,In-flight catering services loaded for morning departure sector
+344,UK235,Hyderabad,Delhi,ON-TIME,D5,R1,10:45,14:30,Vistara,84,BAG-UK235-344,Flight UK235 on time departure scheduled from Hyderabad,Refueling protocol and ramp safety clearance completed at Gate D5
+345,AI593,Chennai,Indore,ON-TIME,D17,R4,16:00,19:45,Air India,184,BAG-AI593-345,Flight AI593 on time final boarding at Gate D17,Secondary runway backup assigned for optimal flow management
+346,UK458,Indore,Patna,ON-TIME,D5,R3,20:20,21:50,Vistara,228,BAG-UK458-346,Flight UK458 on time departure scheduled from Indore,Aircraft turnaround routine servicing completed on schedule
+347,6E105,Delhi,Patna,DELAYED,A17,R1,17:20,20:50,IndiGo,179,BAG-6E105-347,Flight 6E105 delayed due to inclement weather conditions,Baggage transfer operational on carousel 3 at destination
+348,UK767,Indore,Goa,ON-TIME,D19,R3,13:40,15:10,Vistara,216,BAG-UK767-348,Flight UK767 on time departure scheduled from Indore,Special baggage handling protocol applied for fragile cargo
+349,SG672,Bhubaneswar,Amritsar,ON-TIME,C19,R3,17:15,20:30,SpiceJet,133,BAG-SG672-349,Flight SG672 priority departure clearance granted,Secondary runway backup assigned for optimal flow management
+350,AI319,Srinagar,Guwahati,ON-TIME,A6,R4,05:10,06:40,Air India,228,BAG-AI319-350,Flight AI319 priority departure clearance granted,Baggage transfer operational on carousel 2 at destination
+351,SG327,Lucknow,Bangalore,DELAYED,A24,R4,17:50,20:35,SpiceJet,227,BAG-SG327-351,Flight SG327 delayed due to air traffic congestion,Secondary runway backup assigned for optimal flow management
+352,9I606,Varanasi,Delhi,ON-TIME,C7,R1,21:50,01:05,Alliance Air,118,BAG-9I606-352,Flight 9I606 scheduled on time with full passenger load,Regular scheduled domestic flight connecting Varanasi and Delhi
+353,6E770,Delhi,Ahmedabad,ON-TIME,C25,R4,16:40,19:25,IndiGo,126,BAG-6E770-353,Flight 6E770 on time departure scheduled from Delhi,Regular scheduled domestic flight connecting Delhi and Ahmedabad
+354,AI662,Kochi,Indore,DELAYED,C12,R3,12:20,14:50,Air India,222,BAG-AI662-354,Flight AI662 delayed due to air traffic congestion,Runway clearance issued by regional air traffic control tower
+355,UK618,Hyderabad,Indore,ON-TIME,C11,R1,21:25,01:10,Vistara,139,BAG-UK618-355,Flight UK618 scheduled on time with full passenger load,Special baggage handling protocol applied for fragile cargo
+356,QP595,Pune,Lucknow,CANCELLED,D22,R4,23:00,01:15,Akasa Air,141,BAG-QP595-356,Flight QP595 cancelled due to adverse weather alert,Aircraft turnaround routine servicing completed on schedule
+357,9I818,Pune,Lucknow,ON-TIME,C17,R1,13:20,15:35,Alliance Air,177,BAG-9I818-357,Flight 9I818 scheduled on time with full passenger load,Monsoon weather advisory monitored by central flight dispatch team
+358,AI667,Kolkata,Srinagar,ON-TIME,C7,R3,10:20,13:05,Air India,126,BAG-AI667-358,Flight AI667 on time final boarding at Gate C7,Monsoon weather advisory monitored by central flight dispatch team
+359,SG311,Pune,Ahmedabad,ON-TIME,C5,R1,08:10,11:55,SpiceJet,201,BAG-SG311-359,Flight SG311 on time departure scheduled from Pune,Regular scheduled domestic flight connecting Pune and Ahmedabad
+360,UK480,Patna,Jaipur,DELAYED,C16,R2,21:25,23:40,Vistara,222,BAG-UK480-360,Flight UK480 delayed due to technical inspection,Regular scheduled domestic flight connecting Patna and Jaipur
+361,UK653,Mumbai,Bhubaneswar,ON-TIME,D22,R2,19:10,22:55,Vistara,192,BAG-UK653-361,Flight UK653 operating normally on Runway R2,Monsoon weather advisory monitored by central flight dispatch team
+362,AI790,Ahmedabad,Chandigarh,DELAYED,A11,R3,13:15,16:45,Air India,135,BAG-AI790-362,Flight AI790 delayed due to inclement weather conditions,Special baggage handling protocol applied for fragile cargo
+363,SG288,Amritsar,Chandigarh,ON-TIME,D23,R3,16:40,19:10,SpiceJet,121,BAG-SG288-363,Flight SG288 on time departure scheduled from Amritsar,Pre-flight safety inspection completed successfully by ground crew
+364,AI838,Goa,Pune,DELAYED,D13,R2,09:15,11:30,Air India,120,BAG-AI838-364,Flight AI838 delayed awaiting inbound connecting aircraft,Special baggage handling protocol applied for fragile cargo
+365,9I629,Bhubaneswar,Jaipur,DELAYED,C9,R1,17:10,20:25,Alliance Air,90,BAG-9I629-365,Flight 9I629 delayed due to technical inspection,Express gate clearance initiated for short turnaround connection
+366,UK959,Hyderabad,Amritsar,CANCELLED,C9,R3,16:50,20:20,Vistara,163,BAG-UK959-366,Flight UK959 cancelled due to adverse weather alert,Aircraft turnaround routine servicing completed on schedule
+367,SG988,Patna,Ahmedabad,DELAYED,B25,R3,16:30,20:15,SpiceJet,199,BAG-SG988-367,Flight SG988 delayed due to late crew arrival,Special baggage handling protocol applied for fragile cargo
+368,UK728,Kochi,Amritsar,BOARDING,B6,R3,18:40,19:55,Vistara,116,BAG-UK728-368,Flight UK728 priority boarding commenced at Gate B6,In-flight catering services loaded for morning departure sector
+369,SG768,Kochi,Goa,DELAYED,D9,R4,16:50,19:20,SpiceJet,117,BAG-SG768-369,Flight SG768 delayed due to technical inspection,Express gate clearance initiated for short turnaround connection
+370,6E845,Pune,Kochi,CANCELLED,A7,R2,17:10,18:25,IndiGo,196,BAG-6E845-370,Flight 6E845 cancelled passenger refunds initiated,Regular scheduled domestic flight connecting Pune and Kochi
+371,UK636,Bangalore,Chennai,ON-TIME,B3,R4,14:20,16:05,Vistara,147,BAG-UK636-371,Flight UK636 priority departure clearance granted,Fast track boarding operational for frequent flyer club members
+372,6E639,Kolkata,Delhi,ON-TIME,C11,R4,19:50,22:35,IndiGo,188,BAG-6E639-372,Flight 6E639 on time final boarding at Gate C11,Monsoon weather advisory monitored by central flight dispatch team
+373,QP711,Varanasi,Patna,DELAYED,C12,R4,22:20,23:50,Akasa Air,153,BAG-QP711-373,Flight QP711 delayed due to inclement weather conditions,Aircraft turnaround routine servicing completed on schedule
+374,6E410,Delhi,Mumbai,DELAYED,B12,R3,20:50,22:35,IndiGo,200,BAG-6E410-374,Flight 6E410 delayed awaiting inbound connecting aircraft,Runway clearance issued by regional air traffic control tower
+375,UK917,Kochi,Pune,ON-TIME,C7,R4,22:40,00:55,Vistara,116,BAG-UK917-375,Flight UK917 scheduled on time with full passenger load,Monsoon weather advisory monitored by central flight dispatch team
+376,UK325,Goa,Bangalore,ON-TIME,B17,R3,14:50,17:20,Vistara,123,BAG-UK325-376,Flight UK325 is on schedule departing to Bangalore,Pre-flight safety inspection completed successfully by ground crew
+377,SG213,Varanasi,Amritsar,ON-TIME,D7,R3,05:15,07:00,SpiceJet,80,BAG-SG213-377,Flight SG213 on time final boarding at Gate D7,Baggage transfer operational on carousel 5 at destination
+378,SG228,Varanasi,Delhi,ON-TIME,A5,R1,20:20,22:50,SpiceJet,154,BAG-SG228-378,Flight SG228 priority departure clearance granted,Transit passenger assistance coordinated at international transfer desk
+379,9I910,Mumbai,Lucknow,ON-TIME,B2,R3,17:10,20:40,Alliance Air,121,BAG-9I910-379,Flight 9I910 on time final boarding at Gate B2,Medical kit and emergency equipment certified by safety inspector
+380,UK948,Delhi,Chennai,CANCELLED,B13,R4,12:00,13:30,Vistara,99,BAG-UK948-380,Flight UK948 cancelled passenger refunds initiated,Fast track boarding operational for frequent flyer club members
+381,UK498,Kochi,Lucknow,ON-TIME,A24,R1,13:45,17:15,Vistara,125,BAG-UK498-381,Flight UK498 operating normally on Runway R1,Medical kit and emergency equipment certified by safety inspector
+382,9I323,Hyderabad,Goa,BOARDING,D11,R1,10:25,13:40,Alliance Air,176,BAG-9I323-382,Flight 9I323 final call for all passengers to board,Regular scheduled domestic flight connecting Hyderabad and Goa
+383,QP902,Amritsar,Chennai,ON-TIME,A8,R2,20:10,23:55,Akasa Air,161,BAG-QP902-383,Flight QP902 scheduled on time with full passenger load,Regular scheduled domestic flight connecting Amritsar and Chennai
+384,SG760,Chennai,Indore,ON-TIME,B16,R2,15:50,19:20,SpiceJet,187,BAG-SG760-384,Flight SG760 scheduled on time with full passenger load,In-flight catering services loaded for morning departure sector
+385,9I486,Lucknow,Chennai,ON-TIME,A16,R4,22:25,02:10,Alliance Air,200,BAG-9I486-385,Flight 9I486 on time final boarding at Gate A16,Night operations quiet flight departure protocol activated
+386,QP456,Jaipur,Amritsar,ON-TIME,B3,R2,19:25,22:10,Akasa Air,168,BAG-QP456-386,Flight QP456 priority departure clearance granted,Regular scheduled domestic flight connecting Jaipur and Amritsar
+387,9I289,Delhi,Guwahati,CANCELLED,B11,R1,22:40,00:25,Alliance Air,202,BAG-9I289-387,Flight 9I289 cancelled passenger refunds initiated,Pre-flight safety inspection completed successfully by ground crew
+388,SG519,Jaipur,Hyderabad,ON-TIME,A2,R2,10:00,11:15,SpiceJet,199,BAG-SG519-388,Flight SG519 on time final boarding at Gate A2,Baggage transfer operational on carousel 1 at destination
+389,QP757,Guwahati,Srinagar,DELAYED,C2,R3,12:10,13:25,Akasa Air,200,BAG-QP757-389,Flight QP757 delayed due to air traffic congestion,Special baggage handling protocol applied for fragile cargo
+390,SG671,Chandigarh,Lucknow,BOARDING,A20,R3,21:00,00:15,SpiceJet,152,BAG-SG671-390,Flight SG671 now boarding at Gate A20,In-flight catering services loaded for morning departure sector
+391,AI842,Pune,Indore,ON-TIME,B7,R2,23:15,03:00,Air India,217,BAG-AI842-391,Flight AI842 priority departure clearance granted,Monsoon weather advisory monitored by central flight dispatch team
+392,9I690,Lucknow,Amritsar,BOARDING,D4,R2,10:50,13:35,Alliance Air,161,BAG-9I690-392,Flight 9I690 final call for all passengers to board,Refueling protocol and ramp safety clearance completed at Gate D4
+393,SG422,Bhubaneswar,Jaipur,ON-TIME,D25,R4,15:20,19:05,SpiceJet,129,BAG-SG422-393,Flight SG422 priority departure clearance granted,Secondary runway backup assigned for optimal flow management
+394,SG563,Varanasi,Guwahati,ON-TIME,A10,R1,21:15,23:30,SpiceJet,151,BAG-SG563-394,Flight SG563 on time final boarding at Gate A10,In-flight catering services loaded for morning departure sector
+395,AI890,Goa,Indore,DELAYED,B4,R1,19:30,20:45,Air India,142,BAG-AI890-395,Flight AI890 delayed due to inclement weather conditions,Medical kit and emergency equipment certified by safety inspector
+396,6E362,Kochi,Bangalore,DELAYED,D19,R2,07:30,09:45,IndiGo,199,BAG-6E362-396,Flight 6E362 delayed due to late crew arrival,Monsoon weather advisory monitored by central flight dispatch team
+397,QP757,Kochi,Mumbai,CANCELLED,D3,R1,15:30,18:00,Akasa Air,105,BAG-QP757-397,Flight QP757 cancelled due to operational constraints,Monsoon weather advisory monitored by central flight dispatch team
+398,9I896,Guwahati,Mumbai,ON-TIME,A11,R2,15:50,19:05,Alliance Air,114,BAG-9I896-398,Flight 9I896 is on schedule departing to Mumbai,Fast track boarding operational for frequent flyer club members
+399,UK870,Patna,Indore,DELAYED,A8,R4,14:40,15:55,Vistara,161,BAG-UK870-399,Flight UK870 delayed due to air traffic congestion,Special baggage handling protocol applied for fragile cargo
+400,QP508,Goa,Bangalore,ON-TIME,D25,R2,09:45,13:00,Akasa Air,199,BAG-QP508-400,Flight QP508 priority departure clearance granted,Fast track boarding operational for frequent flyer club members
+401,QP730,Srinagar,Pune,ON-TIME,A9,R4,15:10,16:55,Akasa Air,180,BAG-QP730-401,Flight QP730 priority departure clearance granted,Transit passenger assistance coordinated at international transfer desk
+402,6E428,Lucknow,Delhi,CANCELLED,C6,R3,19:15,21:30,IndiGo,134,BAG-6E428-402,Flight 6E428 cancelled due to operational constraints,Fast track boarding operational for frequent flyer club members
+403,6E875,Bangalore,Chennai,CANCELLED,A8,R2,14:00,16:45,IndiGo,103,BAG-6E875-403,Flight 6E875 cancelled technical maintenance required,Special baggage handling protocol applied for fragile cargo
+404,AI439,Ahmedabad,Indore,ON-TIME,B18,R3,22:45,02:30,Air India,111,BAG-AI439-404,Flight AI439 scheduled on time with full passenger load,Monsoon weather advisory monitored by central flight dispatch team
+405,UK696,Srinagar,Mumbai,ON-TIME,B2,R3,11:25,12:55,Vistara,77,BAG-UK696-405,Flight UK696 is on schedule departing to Mumbai,Aircraft turnaround routine servicing completed on schedule
+406,9I972,Lucknow,Hyderabad,ON-TIME,C21,R4,12:40,16:25,Alliance Air,100,BAG-9I972-406,Flight 9I972 operating normally on Runway R4,Special baggage handling protocol applied for fragile cargo
+407,6E303,Srinagar,Varanasi,DELAYED,A2,R2,21:25,23:55,IndiGo,175,BAG-6E303-407,Flight 6E303 delayed due to late crew arrival,Pre-flight safety inspection completed successfully by ground crew
+408,SG800,Lucknow,Guwahati,BOARDING,C8,R3,06:25,08:40,SpiceJet,217,BAG-SG800-408,Flight SG800 priority boarding commenced at Gate C8,In-flight catering services loaded for morning departure sector
+409,SG502,Chennai,Bangalore,CANCELLED,D17,R2,18:20,21:35,SpiceJet,184,BAG-SG502-409,Flight SG502 cancelled technical maintenance required,Medical kit and emergency equipment certified by safety inspector
+410,UK655,Chennai,Pune,BOARDING,B19,R2,09:25,13:10,Vistara,209,BAG-UK655-410,Flight UK655 final call for all passengers to board,Aircraft turnaround routine servicing completed on schedule
+411,9I678,Kolkata,Lucknow,ON-TIME,A6,R3,09:00,11:30,Alliance Air,180,BAG-9I678-411,Flight 9I678 operating normally on Runway R3,Special baggage handling protocol applied for fragile cargo
+412,6E897,Ahmedabad,Hyderabad,ON-TIME,B1,R3,23:20,02:35,IndiGo,134,BAG-6E897-412,Flight 6E897 scheduled on time with full passenger load,Regular scheduled domestic flight connecting Ahmedabad and Hyderabad
+413,AI804,Amritsar,Chennai,DELAYED,D23,R3,10:40,13:10,Air India,110,BAG-AI804-413,Flight AI804 delayed due to technical inspection,In-flight catering services loaded for morning departure sector
+414,AI518,Delhi,Kochi,ON-TIME,B24,R2,11:10,12:40,Air India,200,BAG-AI518-414,Flight AI518 scheduled on time with full passenger load,Transit passenger assistance coordinated at international transfer desk
+415,6E537,Guwahati,Mumbai,DELAYED,D24,R3,17:50,21:35,IndiGo,84,BAG-6E537-415,Flight 6E537 delayed due to runway maintenance window,Baggage transfer operational on carousel 8 at destination
+416,UK946,Mumbai,Goa,DELAYED,D24,R1,22:40,02:25,Vistara,87,BAG-UK946-416,Flight UK946 delayed due to technical inspection,Runway clearance issued by regional air traffic control tower
+417,UK411,Kochi,Amritsar,ON-TIME,D10,R1,21:15,00:00,Vistara,190,BAG-UK411-417,Flight UK411 is on schedule departing to Amritsar,Monsoon weather advisory monitored by central flight dispatch team
+418,6E897,Indore,Bhubaneswar,ON-TIME,D14,R3,19:00,20:30,IndiGo,226,BAG-6E897-418,Flight 6E897 scheduled on time with full passenger load,Medical kit and emergency equipment certified by safety inspector
+419,UK192,Goa,Lucknow,BOARDING,B23,R1,07:10,10:40,Vistara,167,BAG-UK192-419,Flight UK192 now boarding at Gate B23,Refueling protocol and ramp safety clearance completed at Gate B23
+420,9I910,Srinagar,Kolkata,ON-TIME,D2,R2,15:15,16:30,Alliance Air,120,BAG-9I910-420,Flight 9I910 scheduled on time with full passenger load,Regular scheduled domestic flight connecting Srinagar and Kolkata
+421,SG416,Varanasi,Kochi,BOARDING,B4,R2,11:00,14:30,SpiceJet,78,BAG-SG416-421,Flight SG416 boarding in progress for flight to Kochi,Special baggage handling protocol applied for fragile cargo
+422,QP926,Delhi,Srinagar,ON-TIME,B19,R4,19:40,21:55,Akasa Air,228,BAG-QP926-422,Flight QP926 on time departure scheduled from Delhi,Regular scheduled domestic flight connecting Delhi and Srinagar
+423,QP384,Patna,Bhubaneswar,ON-TIME,A6,R2,06:30,07:45,Akasa Air,83,BAG-QP384-423,Flight QP384 scheduled on time with full passenger load,Night operations quiet flight departure protocol activated
+424,SG189,Mumbai,Chennai,ON-TIME,B6,R3,23:50,01:20,SpiceJet,223,BAG-SG189-424,Flight SG189 operating normally on Runway R3,Medical kit and emergency equipment certified by safety inspector
+425,AI886,Kochi,Lucknow,ON-TIME,D3,R4,22:10,00:40,Air India,109,BAG-AI886-425,Flight AI886 is on schedule departing to Lucknow,Monsoon weather advisory monitored by central flight dispatch team
+426,SG639,Chandigarh,Bhubaneswar,ON-TIME,B20,R1,08:50,10:20,SpiceJet,229,BAG-SG639-426,Flight SG639 scheduled on time with full passenger load,Runway clearance issued by regional air traffic control tower
+427,QP968,Jaipur,Goa,DELAYED,C5,R4,21:45,00:00,Akasa Air,134,BAG-QP968-427,Flight QP968 delayed due to late crew arrival,Runway clearance issued by regional air traffic control tower
+428,AI221,Delhi,Amritsar,BOARDING,A24,R2,18:40,20:10,Air India,164,BAG-AI221-428,Flight AI221 gate closing soon at Gate A24,Secondary runway backup assigned for optimal flow management
+429,AI755,Ahmedabad,Jaipur,ON-TIME,A10,R3,21:50,00:05,Air India,104,BAG-AI755-429,Flight AI755 scheduled on time with full passenger load,Transit passenger assistance coordinated at international transfer desk
+430,UK841,Indore,Delhi,ON-TIME,B11,R3,20:45,22:30,Vistara,109,BAG-UK841-430,Flight UK841 priority departure clearance granted,Pre-flight safety inspection completed successfully by ground crew
+431,QP443,Varanasi,Chandigarh,CANCELLED,A17,R3,23:30,03:15,Akasa Air,79,BAG-QP443-431,Flight QP443 cancelled due to operational constraints,Night operations quiet flight departure protocol activated
+432,SG167,Chennai,Kochi,ON-TIME,C13,R2,23:40,01:25,SpiceJet,104,BAG-SG167-432,Flight SG167 operating normally on Runway R2,Monsoon weather advisory monitored by central flight dispatch team
+433,9I132,Goa,Varanasi,ON-TIME,D8,R3,19:25,21:10,Alliance Air,152,BAG-9I132-433,Flight 9I132 on time final boarding at Gate D8,Baggage transfer operational on carousel 6 at destination
+434,AI896,Ahmedabad,Bangalore,DELAYED,A16,R2,11:30,14:15,Air India,209,BAG-AI896-434,Flight AI896 delayed due to inclement weather conditions,Secondary runway backup assigned for optimal flow management
+435,6E887,Hyderabad,Bhubaneswar,BOARDING,B7,R1,19:40,23:25,IndiGo,104,BAG-6E887-435,Flight 6E887 now boarding at Gate B7,Runway clearance issued by regional air traffic control tower
+436,9I968,Patna,Bangalore,ON-TIME,D2,R1,21:25,23:10,Alliance Air,154,BAG-9I968-436,Flight 9I968 scheduled on time with full passenger load,Medical kit and emergency equipment certified by safety inspector
+437,SG305,Ahmedabad,Jaipur,ON-TIME,C25,R4,08:25,09:40,SpiceJet,145,BAG-SG305-437,Flight SG305 is on schedule departing to Jaipur,Regular scheduled domestic flight connecting Ahmedabad and Jaipur
+438,6E655,Lucknow,Indore,ON-TIME,C5,R3,23:20,00:35,IndiGo,154,BAG-6E655-438,Flight 6E655 on time departure scheduled from Lucknow,Medical kit and emergency equipment certified by safety inspector
+439,QP554,Mumbai,Kolkata,ON-TIME,D22,R1,08:40,09:55,Akasa Air,184,BAG-QP554-439,Flight QP554 priority departure clearance granted,Pre-flight safety inspection completed successfully by ground crew
+440,QP464,Kochi,Lucknow,ON-TIME,A25,R4,23:15,01:00,Akasa Air,194,BAG-QP464-440,Flight QP464 is on schedule departing to Lucknow,Special baggage handling protocol applied for fragile cargo
+441,9I759,Varanasi,Srinagar,ON-TIME,B5,R3,16:40,18:25,Alliance Air,159,BAG-9I759-441,Flight 9I759 operating normally on Runway R3,Special baggage handling protocol applied for fragile cargo
+442,AI166,Amritsar,Hyderabad,ON-TIME,D15,R2,14:30,18:15,Air India,107,BAG-AI166-442,Flight AI166 on time departure scheduled from Amritsar,Baggage transfer operational on carousel 7 at destination
+443,9I915,Hyderabad,Lucknow,DELAYED,A10,R4,17:40,19:25,Alliance Air,137,BAG-9I915-443,Flight 9I915 delayed due to runway maintenance window,Pre-flight safety inspection completed successfully by ground crew
+444,UK167,Jaipur,Ahmedabad,BOARDING,D14,R3,22:20,00:05,Vistara,94,BAG-UK167-444,Flight UK167 gate closing soon at Gate D14,Express gate clearance initiated for short turnaround connection
+445,AI706,Patna,Varanasi,ON-TIME,A15,R2,14:40,16:25,Air India,102,BAG-AI706-445,Flight AI706 scheduled on time with full passenger load,Express gate clearance initiated for short turnaround connection
+446,SG606,Mumbai,Hyderabad,ON-TIME,B19,R1,09:15,12:00,SpiceJet,149,BAG-SG606-446,Flight SG606 priority departure clearance granted,Night operations quiet flight departure protocol activated
+447,6E310,Jaipur,Kochi,DELAYED,C14,R3,07:00,10:45,IndiGo,178,BAG-6E310-447,Flight 6E310 delayed due to technical inspection,Express gate clearance initiated for short turnaround connection
+448,AI478,Bhubaneswar,Mumbai,ON-TIME,C4,R3,05:20,08:05,Air India,226,BAG-AI478-448,Flight AI478 priority departure clearance granted,Fast track boarding operational for frequent flyer club members
+449,9I491,Guwahati,Chandigarh,DELAYED,B22,R2,20:15,22:00,Alliance Air,173,BAG-9I491-449,Flight 9I491 delayed due to inclement weather conditions,Express gate clearance initiated for short turnaround connection
+450,6E395,Chennai,Kolkata,ON-TIME,A21,R1,09:45,13:15,IndiGo,109,BAG-6E395-450,Flight 6E395 is on schedule departing to Kolkata,Pre-flight safety inspection completed successfully by ground crew
+451,UK907,Patna,Chandigarh,DELAYED,B15,R4,22:45,01:15,Vistara,132,BAG-UK907-451,Flight UK907 delayed due to technical inspection,Aircraft turnaround routine servicing completed on schedule
+452,QP610,Pune,Bhubaneswar,ON-TIME,D18,R3,06:00,09:30,Akasa Air,169,BAG-QP610-452,Flight QP610 is on schedule departing to Bhubaneswar,Night operations quiet flight departure protocol activated
+453,9I181,Chennai,Bhubaneswar,CANCELLED,C15,R1,21:10,22:40,Alliance Air,94,BAG-9I181-453,Flight 9I181 cancelled passenger refunds initiated,Secondary runway backup assigned for optimal flow management
+454,QP154,Jaipur,Indore,CANCELLED,A16,R4,21:45,01:30,Akasa Air,159,BAG-QP154-454,Flight QP154 cancelled due to airspace flow restrictions,Transit passenger assistance coordinated at international transfer desk
+455,SG271,Mumbai,Jaipur,CANCELLED,C2,R4,23:15,02:30,SpiceJet,149,BAG-SG271-455,Flight SG271 cancelled passenger refunds initiated,Regular scheduled domestic flight connecting Mumbai and Jaipur
+456,UK184,Chennai,Bhubaneswar,ON-TIME,C9,R2,13:25,15:40,Vistara,103,BAG-UK184-456,Flight UK184 on time departure scheduled from Chennai,Pre-flight safety inspection completed successfully by ground crew
+457,9I557,Lucknow,Kolkata,ON-TIME,B16,R2,21:00,23:15,Alliance Air,112,BAG-9I557-457,Flight 9I557 on time departure scheduled from Lucknow,Medical kit and emergency equipment certified by safety inspector
+458,UK870,Chandigarh,Guwahati,ON-TIME,D24,R2,11:30,13:15,Vistara,142,BAG-UK870-458,Flight UK870 is on schedule departing to Guwahati,Regular scheduled domestic flight connecting Chandigarh and Guwahati
+459,UK508,Amritsar,Kochi,DELAYED,B13,R4,20:25,22:10,Vistara,186,BAG-UK508-459,Flight UK508 delayed due to air traffic congestion,Runway clearance issued by regional air traffic control tower
+460,UK794,Jaipur,Bhubaneswar,BOARDING,A4,R3,18:25,20:55,Vistara,143,BAG-UK794-460,Flight UK794 now boarding at Gate A4,Runway clearance issued by regional air traffic control tower
+461,UK891,Pune,Patna,CANCELLED,B17,R3,10:30,13:45,Vistara,77,BAG-UK891-461,Flight UK891 cancelled due to adverse weather alert,Regular scheduled domestic flight connecting Pune and Patna
+462,AI637,Hyderabad,Amritsar,ON-TIME,B24,R3,13:20,14:35,Air India,98,BAG-AI637-462,Flight AI637 is on schedule departing to Amritsar,Night operations quiet flight departure protocol activated
+463,QP753,Hyderabad,Chennai,ON-TIME,B13,R2,08:15,10:45,Akasa Air,194,BAG-QP753-463,Flight QP753 scheduled on time with full passenger load,Medical kit and emergency equipment certified by safety inspector
+464,9I564,Goa,Varanasi,BOARDING,C9,R2,07:25,08:55,Alliance Air,174,BAG-9I564-464,Flight 9I564 priority boarding commenced at Gate C9,Regular scheduled domestic flight connecting Goa and Varanasi
+465,SG282,Varanasi,Bangalore,DELAYED,B20,R4,10:45,12:00,SpiceJet,213,BAG-SG282-465,Flight SG282 delayed awaiting inbound connecting aircraft,In-flight catering services loaded for morning departure sector
+466,UK832,Goa,Hyderabad,ON-TIME,A3,R3,19:00,21:15,Vistara,75,BAG-UK832-466,Flight UK832 is on schedule departing to Hyderabad,Fast track boarding operational for frequent flyer club members
+467,SG255,Jaipur,Chandigarh,DELAYED,A17,R4,20:40,23:25,SpiceJet,92,BAG-SG255-467,Flight SG255 delayed due to runway maintenance window,In-flight catering services loaded for morning departure sector
+468,UK805,Amritsar,Hyderabad,DELAYED,C11,R3,17:00,20:45,Vistara,98,BAG-UK805-468,Flight UK805 delayed due to inclement weather conditions,Refueling protocol and ramp safety clearance completed at Gate C11
+469,AI961,Varanasi,Kochi,BOARDING,B6,R1,17:20,20:05,Air India,174,BAG-AI961-469,Flight AI961 now boarding at Gate B6,Fast track boarding operational for frequent flyer club members
+470,UK186,Varanasi,Ahmedabad,ON-TIME,A7,R1,23:20,01:50,Vistara,91,BAG-UK186-470,Flight UK186 on time departure scheduled from Varanasi,Fast track boarding operational for frequent flyer club members
+471,UK646,Varanasi,Delhi,ON-TIME,C2,R3,06:40,07:55,Vistara,208,BAG-UK646-471,Flight UK646 priority departure clearance granted,Fast track boarding operational for frequent flyer club members
+472,9I693,Pune,Bangalore,ON-TIME,B16,R1,20:00,21:45,Alliance Air,108,BAG-9I693-472,Flight 9I693 is on schedule departing to Bangalore,Pre-flight safety inspection completed successfully by ground crew
+473,SG940,Hyderabad,Amritsar,DELAYED,B19,R1,08:10,10:55,SpiceJet,131,BAG-SG940-473,Flight SG940 delayed due to air traffic congestion,Secondary runway backup assigned for optimal flow management
+474,UK445,Guwahati,Jaipur,ON-TIME,B11,R2,06:15,08:30,Vistara,105,BAG-UK445-474,Flight UK445 operating normally on Runway R2,Pre-flight safety inspection completed successfully by ground crew
+475,6E813,Lucknow,Indore,ON-TIME,D8,R1,09:10,12:55,IndiGo,171,BAG-6E813-475,Flight 6E813 on time final boarding at Gate D8,Regular scheduled domestic flight connecting Lucknow and Indore
+476,AI106,Delhi,Ahmedabad,ON-TIME,C14,R4,09:20,11:05,Air India,144,BAG-AI106-476,Flight AI106 on time departure scheduled from Delhi,Special baggage handling protocol applied for fragile cargo
+477,6E278,Patna,Mumbai,DELAYED,B23,R4,07:25,09:55,IndiGo,76,BAG-6E278-477,Flight 6E278 delayed due to runway maintenance window,In-flight catering services loaded for morning departure sector
+478,AI642,Hyderabad,Guwahati,CANCELLED,B15,R2,13:00,14:15,Air India,113,BAG-AI642-478,Flight AI642 cancelled due to airspace flow restrictions,Special baggage handling protocol applied for fragile cargo
+479,6E786,Mumbai,Bangalore,BOARDING,C10,R2,18:25,21:10,IndiGo,191,BAG-6E786-479,Flight 6E786 now boarding at Gate C10,Baggage transfer operational on carousel 1 at destination
+480,QP280,Kolkata,Delhi,DELAYED,A3,R2,19:30,21:45,Akasa Air,158,BAG-QP280-480,Flight QP280 delayed due to technical inspection,Secondary runway backup assigned for optimal flow management
+481,SG333,Hyderabad,Goa,CANCELLED,D7,R4,12:10,14:55,SpiceJet,199,BAG-SG333-481,Flight SG333 cancelled due to adverse weather alert,Medical kit and emergency equipment certified by safety inspector
+482,6E321,Patna,Varanasi,ON-TIME,D12,R2,19:20,22:50,IndiGo,144,BAG-6E321-482,Flight 6E321 on time final boarding at Gate D12,Transit passenger assistance coordinated at international transfer desk
+483,AI808,Indore,Mumbai,ON-TIME,B4,R4,19:40,21:10,Air India,131,BAG-AI808-483,Flight AI808 operating normally on Runway R4,Night operations quiet flight departure protocol activated
+484,9I726,Kolkata,Patna,DELAYED,B3,R4,21:45,23:30,Alliance Air,196,BAG-9I726-484,Flight 9I726 delayed awaiting inbound connecting aircraft,Runway clearance issued by regional air traffic control tower
+485,9I538,Pune,Goa,ON-TIME,D19,R2,23:15,02:30,Alliance Air,181,BAG-9I538-485,Flight 9I538 is on schedule departing to Goa,Regular scheduled domestic flight connecting Pune and Goa
+486,9I887,Srinagar,Mumbai,ON-TIME,D16,R1,19:45,21:00,Alliance Air,217,BAG-9I887-486,Flight 9I887 is on schedule departing to Mumbai,Monsoon weather advisory monitored by central flight dispatch team
+487,6E235,Lucknow,Kochi,ON-TIME,A1,R4,14:15,17:45,IndiGo,221,BAG-6E235-487,Flight 6E235 scheduled on time with full passenger load,Night operations quiet flight departure protocol activated
+488,UK574,Chennai,Chandigarh,ON-TIME,C21,R4,05:10,07:55,Vistara,160,BAG-UK574-488,Flight UK574 on time departure scheduled from Chennai,Regular scheduled domestic flight connecting Chennai and Chandigarh
+489,UK870,Goa,Indore,DELAYED,B22,R1,15:00,18:45,Vistara,168,BAG-UK870-489,Flight UK870 delayed due to air traffic congestion,Baggage transfer operational on carousel 7 at destination
+490,SG576,Patna,Mumbai,ON-TIME,C6,R1,22:20,23:50,SpiceJet,136,BAG-SG576-490,Flight SG576 on time departure scheduled from Patna,Baggage transfer operational on carousel 8 at destination
+491,9I870,Indore,Ahmedabad,CANCELLED,B11,R3,13:50,17:20,Alliance Air,145,BAG-9I870-491,Flight 9I870 cancelled due to adverse weather alert,Baggage transfer operational on carousel 6 at destination
+492,SG563,Amritsar,Bhubaneswar,DELAYED,A16,R3,19:30,23:15,SpiceJet,91,BAG-SG563-492,Flight SG563 delayed due to technical inspection,Medical kit and emergency equipment certified by safety inspector
+493,AI182,Guwahati,Kolkata,ON-TIME,A4,R2,13:10,16:25,Air India,202,BAG-AI182-493,Flight AI182 on time final boarding at Gate A4,Express gate clearance initiated for short turnaround connection
+494,QP742,Delhi,Jaipur,ON-TIME,B16,R3,18:45,22:30,Akasa Air,80,BAG-QP742-494,Flight QP742 operating normally on Runway R3,In-flight catering services loaded for morning departure sector
+495,AI992,Pune,Bhubaneswar,BOARDING,C14,R3,15:45,19:30,Air India,210,BAG-AI992-495,Flight AI992 gate closing soon at Gate C14,Special baggage handling protocol applied for fragile cargo
+496,SG680,Chennai,Jaipur,ON-TIME,C8,R4,16:25,17:40,SpiceJet,165,BAG-SG680-496,Flight SG680 operating normally on Runway R4,Special baggage handling protocol applied for fragile cargo
+497,QP264,Bhubaneswar,Kochi,ON-TIME,B23,R2,10:20,11:35,Akasa Air,156,BAG-QP264-497,Flight QP264 on time departure scheduled from Bhubaneswar,Pre-flight safety inspection completed successfully by ground crew
+498,SG478,Kolkata,Pune,DELAYED,A22,R3,16:15,18:45,SpiceJet,213,BAG-SG478-498,Flight SG478 delayed due to technical inspection,Refueling protocol and ramp safety clearance completed at Gate A22
+499,AI125,Guwahati,Srinagar,CANCELLED,B15,R3,09:00,12:45,Air India,204,BAG-AI125-499,Flight AI125 cancelled technical maintenance required,Fast track boarding operational for frequent flyer club members
+500,UK396,Indore,Chennai,DELAYED,D11,R1,20:00,21:45,Vistara,216,BAG-UK396-500,Flight UK396 delayed due to air traffic congestion,Runway clearance issued by regional air traffic control tower

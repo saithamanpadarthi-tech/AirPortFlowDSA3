@@ -78,13 +78,26 @@ public class CO6Menu {
             System.out.println("\n  -- Delay Probability per Flight (" + trials + " trials each) --");
             System.out.printf("  %-8s  %-10s  %-10s  %s%n", "Flight", "Status", "DelayProb", "Bar");
             System.out.println("  " + "-".repeat(55));
+            int show = Math.min(20, flights.size());
+            double totalProb = 0;
+            int highRiskCount = 0;
             for (int i = 0; i < flights.size(); i++) {
-                Flight f = flights.get(i);
-                int bar = (int)(probs[i] * 20);
-                System.out.printf("  %-8s  %-10s  %-10.3f  %s%n",
-                        f.getFlightNumber(), f.getStatus(), probs[i],
-                        "#".repeat(bar));
+                totalProb += probs[i];
+                if (probs[i] >= 0.5) highRiskCount++;
+                if (i < show) {
+                    Flight f = flights.get(i);
+                    int bar = (int)(probs[i] * 20);
+                    System.out.printf("  %-8s  %-10s  %-10.3f  %s%n",
+                            f.getFlightNumber(), f.getStatus(), probs[i],
+                            "#".repeat(bar));
+                }
             }
+            if (flights.size() > show) {
+                System.out.println("  ... (" + (flights.size() - show) + " more flights simulated in fleet; showing first " + show + ")");
+            }
+            System.out.println("  " + "-".repeat(55));
+            System.out.printf("  Fleet-wide average delay probability: %.2f%%%n", (totalProb / flights.size()) * 100);
+            System.out.printf("  High-delay risk flights (>= 50%%):    %d of %d flights%n", highRiskCount, flights.size());
 
         } else if (sub == 2) {
             System.out.print("  Average delay in minutes (e.g. 25): ");
@@ -191,9 +204,18 @@ public class CO6Menu {
         System.out.println("\n  -- Results --");
         System.out.printf("  %-8s  %-10s  %-12s  %-12s%n", "Flight", "Pax", "SeqPrefix", "ParPrefix");
         System.out.println("  " + "-".repeat(48));
-        for (int i = 0; i < flights.size(); i++)
+        int limit = Math.min(15, flights.size());
+        for (int i = 0; i < limit; i++)
             System.out.printf("  %-8s  %-10d  %-12d  %-12d%n",
                     flights.get(i).getFlightNumber(), pax[i], seqResult[i], parResult[i]);
+        if (flights.size() > limit + 5) {
+            System.out.println("  ... (" + (flights.size() - limit - 5) + " intermediate flights calculated in parallel) ...");
+            for (int i = flights.size() - 5; i < flights.size(); i++)
+                System.out.printf("  %-8s  %-10d  %-12d  %-12d%n",
+                        flights.get(i).getFlightNumber(), pax[i], seqResult[i], parResult[i]);
+        }
+        System.out.println("  " + "-".repeat(48));
+        System.out.printf("  Cumulative Fleet Total Passengers: %,d%n", parResult[flights.size() - 1]);
 
         System.out.println("\n  Sequential time:  " + seqTime + " ns");
         System.out.println("  Parallel time:    " + parTime + " ns");

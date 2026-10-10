@@ -98,16 +98,24 @@ public class CO1Menu {
         System.out.println("  Failure function: " + Arrays.toString(KMP.buildFailure(pattern)));
         System.out.println();
 
-        boolean anyFound = false;
+        int matchCount = 0;
+        int displayLimit = 25;
         for (int i = 0; i < texts.size(); i++) {
             List<Integer> pos = KMP.search(texts.get(i), pattern);
             if (!pos.isEmpty()) {
-                System.out.printf("  [FOUND]  %-35s -> positions %s%n", labels.get(i), pos);
-                anyFound = true;
+                matchCount++;
+                if (matchCount <= displayLimit) {
+                    System.out.printf("  [FOUND]  %-35s -> positions %s%n", labels.get(i), pos);
+                }
             }
         }
-        if (!anyFound)
+        if (matchCount > displayLimit) {
+            System.out.println("  ... (" + (matchCount - displayLimit) + " additional matches in dataset; showing first " + displayLimit + ")");
+        }
+        if (matchCount == 0)
             System.out.println("  [NOT FOUND]  Pattern \"" + pattern + "\" not found in any record.");
+        else
+            System.out.println("\n  Total matching records: " + matchCount + " out of " + texts.size());
     }
 
     // ── 2. Z-Function ─────────────────────────────────────────────────────────
@@ -193,16 +201,24 @@ public class CO1Menu {
         System.out.println("  Pattern: \"" + pattern + "\"");
         System.out.println();
 
-        boolean anyFound = false;
+        int matchCount = 0;
+        int displayLimit = 25;
         for (int i = 0; i < texts.size(); i++) {
             List<Integer> pos = RabinKarp.search(texts.get(i), pattern);
             if (!pos.isEmpty()) {
-                System.out.printf("  [FOUND]  %-35s -> positions %s%n", labels.get(i), pos);
-                anyFound = true;
+                matchCount++;
+                if (matchCount <= displayLimit) {
+                    System.out.printf("  [FOUND]  %-35s -> positions %s%n", labels.get(i), pos);
+                }
             }
         }
-        if (!anyFound)
+        if (matchCount > displayLimit) {
+            System.out.println("  ... (" + (matchCount - displayLimit) + " additional matches in dataset; showing first " + displayLimit + ")");
+        }
+        if (matchCount == 0)
             System.out.println("  [NOT FOUND]  Pattern \"" + pattern + "\" not found.");
+        else
+            System.out.println("\n  Total matching records: " + matchCount + " out of " + texts.size());
     }
 
     // ── 4. Aho-Corasick ───────────────────────────────────────────────────────
@@ -226,28 +242,41 @@ public class CO1Menu {
         System.out.println("\n  -- Search Results --");
         System.out.println();
 
+        int hitCount = 0;
+        int displayLimit = 20;
         for (Flight f : dataset.getFlights()) {
             Map<String, List<Integer>> hits = ac.search(f.getAlertMessage());
             if (!hits.isEmpty()) {
-                System.out.printf("  Flight %-8s  Alert: %s%n",
-                        f.getFlightNumber(), truncate(f.getAlertMessage(), 55));
-                for (Map.Entry<String, List<Integer>> e : hits.entrySet()) {
-                    System.out.printf("    -> %-14s  at positions %s%n",
-                            "\"" + e.getKey() + "\"", e.getValue());
+                hitCount++;
+                if (hitCount <= displayLimit) {
+                    System.out.printf("  Flight %-8s  Alert: %s%n",
+                            f.getFlightNumber(), truncate(f.getAlertMessage(), 55));
+                    for (Map.Entry<String, List<Integer>> e : hits.entrySet()) {
+                        System.out.printf("    -> %-14s  at positions %s%n",
+                                "\"" + e.getKey() + "\"", e.getValue());
+                    }
                 }
             }
         }
+        if (hitCount > displayLimit) {
+            System.out.println("  ... (" + (hitCount - displayLimit) + " additional matching alerts; showing first " + displayLimit + ")");
+        }
+        System.out.println("\n  Total flights with matching alert keywords: " + hitCount + " out of " + dataset.getFlights().size());
     }
 
     // ── Helpers ───────────────────────────────────────────────────────────────
 
     private void printFlightList() {
         List<Flight> fl = dataset.getFlights();
-        for (int i = 0; i < fl.size(); i++)
+        int show = Math.min(20, fl.size());
+        for (int i = 0; i < show; i++)
             System.out.printf("  %2d.  %-8s  %-12s -> %-12s  [%s]%n",
                     i + 1, fl.get(i).getFlightNumber(),
                     fl.get(i).getOrigin(), fl.get(i).getDestination(),
                     fl.get(i).getStatus());
+        if (fl.size() > show) {
+            System.out.println("  ... (" + (fl.size() - show) + " more flights available in dataset; enter 1-" + fl.size() + ")");
+        }
     }
 
     private String truncate(String s, int max) {

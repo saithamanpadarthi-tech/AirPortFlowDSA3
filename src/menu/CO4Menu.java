@@ -207,10 +207,13 @@ public class CO4Menu {
             StringBuilder compat = new StringBuilder();
             for (int j = 0; j < G; j++) {
                 char gp = GATES[j].charAt(0);
-                boolean ok = (airline.equals("Air India") && (gp == 'A' || gp == 'B'))
-                          || (airline.equals("IndiGo")    && (gp == 'B' || gp == 'C'))
-                          || (airline.equals("SpiceJet")  && (gp == 'C' || gp == 'D'))
-                          || (airline.equals("Vistara")   && (gp == 'D' || gp == 'A'));
+                boolean ok = (airline.equals("Air India")    && (gp == 'A' || gp == 'B'))
+                          || (airline.equals("IndiGo")       && (gp == 'B' || gp == 'C'))
+                          || (airline.equals("SpiceJet")     && (gp == 'C' || gp == 'D'))
+                          || (airline.equals("Vistara")      && (gp == 'D' || gp == 'A'))
+                          || (airline.equals("Akasa Air")    && (gp == 'A' || gp == 'C'))
+                          || (airline.equals("Alliance Air") && (gp == 'B' || gp == 'D'))
+                          || (gp == 'A' || gp == 'B');
                 if (ok) { bm.addEdge(i, j); compat.append(GATES[j]).append(" "); }
             }
             System.out.printf("  %-10s  %-14s  %s%n", f.getFlightNumber(), airline, compat);

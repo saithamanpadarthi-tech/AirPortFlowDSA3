@@ -192,11 +192,15 @@ public class CO2Menu {
     private Flight pickFlight(String fieldDesc) {
         System.out.println("  Select a flight to analyse its " + fieldDesc + ":");
         List<Flight> fl = dataset.getFlights();
-        for (int i = 0; i < fl.size(); i++)
+        int show = Math.min(20, fl.size());
+        for (int i = 0; i < show; i++)
             System.out.printf("  %2d.  %-8s  %-11s -> %-11s  [%s]%n",
                     i + 1, fl.get(i).getFlightNumber(),
                     fl.get(i).getOrigin(), fl.get(i).getDestination(),
                     fl.get(i).getStatus());
+        if (fl.size() > show) {
+            System.out.println("  ... (" + (fl.size() - show) + " more flights available in dataset)");
+        }
         System.out.print("  Flight index (1-" + fl.size() + "): ");
         int idx = readInt() - 1;
         if (idx < 0 || idx >= fl.size()) { System.out.println("  [!] Invalid index."); return null; }

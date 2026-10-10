@@ -148,12 +148,14 @@ public class CO5Menu {
         // Sets = maintenance crews, each covers flights of one airline
         SetCover sc = new SetCover(F);
 
-        String[] airlines = {"Air India", "IndiGo", "SpiceJet", "Vistara"};
+        Set<String> uniqueAirlines = new java.util.LinkedHashSet<>();
+        for (Flight f : flights) uniqueAirlines.add(f.getAirline());
+
         System.out.println("  Universe: " + F + " flights need maintenance.");
         System.out.println("  Each maintenance crew covers flights of one airline:");
         System.out.println();
 
-        for (String airline : airlines) {
+        for (String airline : uniqueAirlines) {
             Set<Integer> covered = new HashSet<>();
             for (int i = 0; i < F; i++)
                 if (flights.get(i).getAirline().equals(airline)) covered.add(i);

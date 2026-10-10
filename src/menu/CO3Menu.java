@@ -9,6 +9,7 @@ import dataset.AirportDataset;
 import dataset.Flight;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Scanner;
@@ -73,25 +74,38 @@ public class CO3Menu {
         int field = readInt();
 
         List<String> candidates = extractCandidates(field);
-        System.out.println("  Candidates: " + candidates);
+        if (candidates.size() <= 15) {
+            System.out.println("  Candidates: " + candidates);
+        } else {
+            System.out.println("  Candidates loaded: " + candidates.size() + " records (e.g. "
+                    + String.join(", ", candidates.subList(0, Math.min(8, candidates.size()))) + ", ...)");
+        }
 
         System.out.print("\n  Enter your query (possibly with typo): ");
         String query = readLine();
         if (query.isEmpty()) { System.out.println("  [!] Empty query."); return; }
 
-        System.out.println("\n  -- Levenshtein Distances --");
+        class Match implements Comparable<Match> {
+            String name; int dist;
+            Match(String n, int d) { name = n; dist = d; }
+            public int compareTo(Match o) { return Integer.compare(this.dist, o.dist); }
+        }
+        List<Match> matches = new ArrayList<>();
+        for (String c : candidates) {
+            matches.add(new Match(c, Levenshtein.distance(query, c)));
+        }
+        Collections.sort(matches);
+
+        System.out.println("\n  -- Levenshtein Distances (Top Matches) --");
         System.out.printf("  %-22s  Distance%n", "Candidate");
         System.out.println("  " + "-".repeat(32));
 
-        String best    = null;
-        int    bestDist = Integer.MAX_VALUE;
-        for (String c : candidates) {
-            int d = Levenshtein.distance(query, c);
-            if (d < bestDist) { bestDist = d; best = c; }
-            System.out.printf("  %-22s  %d%n", c, d);
+        int limit = Math.min(10, matches.size());
+        for (int i = 0; i < limit; i++) {
+            System.out.printf("  %-22s  %d%n", matches.get(i).name, matches.get(i).dist);
         }
         System.out.println("  " + "-".repeat(32));
-        System.out.printf("  Best match: \"%s\"  (edit distance = %d)%n", best, bestDist);
+        System.out.printf("  Best match: \"%s\"  (edit distance = %d)%n", matches.get(0).name, matches.get(0).dist);
         System.out.println("  (Levenshtein counts: insertions + deletions + substitutions)");
     }
 
@@ -107,25 +121,39 @@ public class CO3Menu {
         int field = readInt();
 
         List<String> candidates = extractCandidates(field == 2 ? 3 : 2);
-        System.out.println("  Candidates: " + candidates);
+        if (candidates.size() <= 15) {
+            System.out.println("  Candidates: " + candidates);
+        } else {
+            System.out.println("  Candidates loaded: " + candidates.size() + " records (e.g. "
+                    + String.join(", ", candidates.subList(0, Math.min(8, candidates.size()))) + ", ...)");
+        }
 
         System.out.print("\n  Enter query (try a transposition typo, e.g. \"Hyderabd\"): ");
         String query = readLine();
         if (query.isEmpty()) { System.out.println("  [!] Empty query."); return; }
 
-        System.out.println("\n  -- Comparison: Levenshtein vs Damerau-Levenshtein --");
+        class DamMatch implements Comparable<DamMatch> {
+            String name; int lev, dam;
+            DamMatch(String n, int l, int d) { name = n; lev = l; dam = d; }
+            public int compareTo(DamMatch o) { return Integer.compare(this.dam, o.dam); }
+        }
+        List<DamMatch> damMatches = new ArrayList<>();
+        for (String c : candidates) {
+            damMatches.add(new DamMatch(c, Levenshtein.distance(query, c), DamerauLevenshtein.distance(query, c)));
+        }
+        Collections.sort(damMatches);
+
+        System.out.println("\n  -- Comparison: Levenshtein vs Damerau-Levenshtein (Top Matches) --");
         System.out.printf("  %-22s  %-12s  %-12s%n", "Candidate", "Levenshtein", "Damerau-Lev");
         System.out.println("  " + "-".repeat(50));
 
-        String bestDam = null; int bestDamDist = Integer.MAX_VALUE;
-        for (String c : candidates) {
-            int lev = Levenshtein.distance(query, c);
-            int dam = DamerauLevenshtein.distance(query, c);
-            if (dam < bestDamDist) { bestDamDist = dam; bestDam = c; }
-            System.out.printf("  %-22s  %-12d  %-12d%n", c, lev, dam);
+        int limit = Math.min(10, damMatches.size());
+        for (int i = 0; i < limit; i++) {
+            DamMatch m = damMatches.get(i);
+            System.out.printf("  %-22s  %-12d  %-12d%n", m.name, m.lev, m.dam);
         }
         System.out.println("  " + "-".repeat(50));
-        System.out.printf("  Best match: \"%s\"  (Damerau distance = %d)%n", bestDam, bestDamDist);
+        System.out.printf("  Best match: \"%s\"  (Damerau distance = %d)%n", damMatches.get(0).name, damMatches.get(0).dam);
     }
 
     // ── 3. Bitmask DP ─────────────────────────────────────────────────────────
