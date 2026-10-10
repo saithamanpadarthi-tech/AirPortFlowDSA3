@@ -58,7 +58,7 @@ public class AirportDataset {
     // ── Display ──────────────────────────────────────────────────────────────
 
     public void printTable() {
-        String sep = "─".repeat(132);
+        String sep = "-".repeat(132);
         System.out.println("\n  " + sep);
         System.out.printf("  %-4s %-8s %-12s %-12s %-10s %-5s %-4s %-6s %-6s %-12s %-5s %-18s%n",
                 "ID", "Flight", "Origin", "Dest", "Status", "Gate", "RWY",

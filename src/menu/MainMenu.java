@@ -53,7 +53,7 @@ public class MainMenu {
         System.out.println("  ============================================");
         System.out.println("        A I R P O R T F L O W");
         System.out.println("    Airport Operations & Resource Management");
-        System.out.println("    DSA Project  |  CO1 | CO2 | CO3");
+        System.out.println("    DSA Project  |  CO1 - CO6");
         System.out.println("  ============================================");
         System.out.println();
     }
@@ -64,7 +64,7 @@ public class MainMenu {
         System.out.println("  --------------------------------------------");
         System.out.println("    1.  Load Dataset");
         System.out.println("    2.  View Dataset");
-        System.out.println("    3.  Select Module  (CO1 / CO2 / CO3)");
+        System.out.println("    3.  Select Module  (CO1 - CO6)");
         System.out.println("    4.  Exit");
         System.out.println("  --------------------------------------------");
         System.out.print("  Enter choice: ");
@@ -106,7 +106,16 @@ public class MainMenu {
         System.out.println("        Levenshtein | Damerau-Levenshtein");
         System.out.println("        Bitmask DP | Matrix-Chain | Optimal BST");
         System.out.println();
-        System.out.println("    4.  Back");
+        System.out.println("    4.  CO4 - Network Flow");
+        System.out.println("        Ford-Fulkerson | Dinic | Max-Flow/Min-Cut | Bipartite Matching");
+        System.out.println();
+        System.out.println("    5.  CO5 - NP-Completeness & Approximations");
+        System.out.println("        Vertex Cover | Independent Set | Set Cover | TSP");
+        System.out.println();
+        System.out.println("    6.  CO6 - Randomized & Parallel Algorithms");
+        System.out.println("        Monte Carlo | Las Vegas | Parallel Prefix | Parallel Reduce");
+        System.out.println();
+        System.out.println("    7.  Back");
         System.out.println("  --------------------------------------------");
         System.out.print("  Enter choice: ");
 
@@ -115,7 +124,10 @@ public class MainMenu {
             case 1: new CO1Menu(scanner).start(); break;
             case 2: new CO2Menu(scanner).start(); break;
             case 3: new CO3Menu(scanner).start(); break;
-            case 4: break;
+            case 4: new CO4Menu(scanner).start(); break;
+            case 5: new CO5Menu(scanner).start(); break;
+            case 6: new CO6Menu(scanner).start(); break;
+            case 7: break;
             default: System.out.println("  [!] Invalid option.");
         }
     }

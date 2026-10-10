@@ -14,6 +14,9 @@ mkdir out
   src\co1\*.java ^
   src\co2\*.java ^
   src\co3\*.java ^
+  src\co4\*.java ^
+  src\co5\*.java ^
+  src\co6\*.java ^
   src\menu\*.java
 
 if %ERRORLEVEL% == 0 (
