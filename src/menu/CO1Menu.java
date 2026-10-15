@@ -36,13 +36,21 @@ public class CO1Menu {
         boolean running = true;
         while (running) {
             System.out.println("\n  ============================================");
-            System.out.println("       CO1 - String Algorithms Module");
+            System.out.println("       Search & Match Flights");
             System.out.println("  ============================================");
-            System.out.println("    1.  KMP           - Knuth-Morris-Pratt search");
-            System.out.println("    2.  Z-Function    - Repeated pattern detection");
-            System.out.println("    3.  Rabin-Karp    - Rolling-hash search");
-            System.out.println("    4.  Aho-Corasick  - Multi-pattern detection");
-            System.out.println("    5.  Back to Main Menu");
+            System.out.println("    1.  Search for a flight by keyword");
+            System.out.println("        (Find flights matching a word in alerts or notes)");
+            System.out.println();
+            System.out.println("    2.  Find repeated patterns in announcements");
+            System.out.println("        (Detect duplicate phrases in operational messages)");
+            System.out.println();
+            System.out.println("    3.  Trace a baggage tracking code");
+            System.out.println("        (Locate a baggage code or keyword across the database)");
+            System.out.println();
+            System.out.println("    4.  Scan all flights for status keywords");
+            System.out.println("        (Detect DELAYED / CANCELLED / BOARDING across all alerts at once)");
+            System.out.println();
+            System.out.println("    5.  Back to Operations Menu");
             System.out.println("  --------------------------------------------");
             System.out.print("  Enter choice: ");
 
@@ -60,7 +68,7 @@ public class CO1Menu {
     // ── 1. KMP ────────────────────────────────────────────────────────────────
 
     private void runKMP() {
-        System.out.println("\n  == KMP - Knuth-Morris-Pratt Search ==");
+        System.out.println("\n  == Search for a flight by keyword ==");
         System.out.println("  Search field:");
         System.out.println("    1. Alert Messages");
         System.out.println("    2. Operational Notes");
@@ -121,7 +129,7 @@ public class CO1Menu {
     // ── 2. Z-Function ─────────────────────────────────────────────────────────
 
     private void runZFunction() {
-        System.out.println("\n  == Z-Function - Repeated Pattern Detection ==");
+        System.out.println("\n  == Find repeated patterns in announcements ==");
         System.out.println("  Select a flight to analyse its Operational Note:");
         printFlightList();
         System.out.print("  Flight index (1-" + dataset.getFlights().size() + "): ");
@@ -175,7 +183,7 @@ public class CO1Menu {
     // ── 3. Rabin-Karp ─────────────────────────────────────────────────────────
 
     private void runRabinKarp() {
-        System.out.println("\n  == Rabin-Karp - Rolling-Hash Search ==");
+        System.out.println("\n  == Trace a baggage tracking code ==");
         System.out.println("  Search in:");
         System.out.println("    1. Baggage Codes");
         System.out.println("    2. Alert Messages");
